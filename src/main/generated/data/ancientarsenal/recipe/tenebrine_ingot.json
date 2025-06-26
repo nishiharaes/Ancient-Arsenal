@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ancientarsenal:tenebrine_scrap"
+    },
+    {
+      "item": "ancientarsenal:tenebrine_scrap"
+    },
+    {
+      "item": "ancientarsenal:tenebrine_scrap"
+    },
+    {
+      "item": "ancientarsenal:tenebrine_scrap"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ancientarsenal:tenebrine_ingot"
+  }
+}
