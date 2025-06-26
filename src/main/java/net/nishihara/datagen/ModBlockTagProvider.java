@@ -5,6 +5,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.nishihara.block.ModBlocks;
+import net.nishihara.item.ModToolMaterials;
+import net.nishihara.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -24,5 +26,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_TENEBRINE_ORE)
                 .add(ModBlocks.TENEBRINE_ORE);
 
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_TENEBRINE_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
     }
 }

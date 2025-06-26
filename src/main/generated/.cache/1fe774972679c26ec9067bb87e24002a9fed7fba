@@ -1,3 +1,5 @@
-// 1.21.1	2025-06-27T01:30:05.5719814	Ancient Arsenal/Recipes
+// 1.21.1	2025-06-27T05:16:20.1545643	Ancient Arsenal/Recipes
+1fb6cec8d18bc4382c2ad7c097890177cb285cf0 data\ancientarsenal\recipe\tenebrine_sword_from_smithing.json
 20dbe6479b45a6c69334044196055ae63ecbb1ba data\ancientarsenal\recipe\tenebrine_ingot.json
+966a0f09b967a698a6ee841e92d3d5cda54d1729 data\ancientarsenal\advancement\recipes\combat\tenebrine_sword_from_smithing.json
 a722c0f91f612333b6bcb092509cee801bc5ed9b data\ancientarsenal\advancement\recipes\misc\tenebrine_ingot.json

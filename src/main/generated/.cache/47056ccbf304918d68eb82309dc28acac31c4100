@@ -1,9 +1,14 @@
-// 1.21.1	2025-06-27T01:30:05.5699808	Ancient Arsenal/Model Definitions
+// 1.21.1	2025-06-27T05:16:20.1525647	Ancient Arsenal/Model Definitions
 d238d2de52b47a4afa588c53a93f81fb68f18a0e assets\ancientarsenal\blockstates\deepslate_tenebrine_ore.json
-25ee6bb9b41752a7ed039775571a39d3b456c798 assets\ancientarsenal\models\block\tenebrine_ore.json
 3af8b03efa3ec2f51f9bb9dea97a4bf7822cf99e assets\ancientarsenal\models\block\deepslate_tenebrine_ore.json
+d93d3e10893c312ff680d860880f9094b48a4cb3 assets\ancientarsenal\models\item\tenebrine_sword.json
+0f5fb02b26b1def4a0944946f703fbad41e385b0 assets\ancientarsenal\models\item\tenebrine_ingot.json
+3dca61e7436de2bfd548c8fa2ec133fcfa3bb5b2 assets\ancientarsenal\models\item\tenebrine_axe.json
+c7f869874fe6771eed3d28b941e571288ce3200d assets\ancientarsenal\models\item\tenebrine_hoe.json
+25ee6bb9b41752a7ed039775571a39d3b456c798 assets\ancientarsenal\models\block\tenebrine_ore.json
 5f7017a11e306fe51c92250b492a67b58a67456f assets\ancientarsenal\models\item\tenebrine_ore.json
 cf3dfc65a5b66d9bbce385e0b3681d5a8a7484f2 assets\ancientarsenal\models\item\tenebrine_scrap.json
+aaffeeab84980b0558d149dea416eb9e5aacb665 assets\ancientarsenal\models\item\tenebrine_pickaxe.json
 0f5643467cdeff5aa50e6a419f711aacd173523e assets\ancientarsenal\models\item\deepslate_tenebrine_ore.json
-0f5fb02b26b1def4a0944946f703fbad41e385b0 assets\ancientarsenal\models\item\tenebrine_ingot.json
 7702cd4e1d4397e1e70d84a5b63a078a0f41e6d6 assets\ancientarsenal\blockstates\tenebrine_ore.json
+d33a110cbcb1387c000a1fcbcd8baafc65566d0f assets\ancientarsenal\models\item\tenebrine_shovel.json

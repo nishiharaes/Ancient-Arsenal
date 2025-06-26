@@ -3,5 +3,11 @@
   "item.ancientarsenal.tenebrine_scrap": "Tenebrine Scrap",
 
   "block.ancientarsenal.tenebrine_ore": "Tenebrine Ore",
-  "block.ancientarsenal.deepslate_tenebrine_ore": "Deepslate Tenebrine Ore"
+  "block.ancientarsenal.deepslate_tenebrine_ore": "Deepslate Tenebrine Ore",
+
+  "item.ancientarsenal.tenebrine_sword": "Tenebrine Sword",
+  "item.ancientarsenal.tenebrine_pickaxe": "Tenebrine Pickaxe",
+  "item.ancientarsenal.tenebrine_axe": "Tenebrine Axe",
+  "item.ancientarsenal.tenebrine_shovel": "Tenebrine Shovel",
+  "item.ancientarsenal.tenebrine_hoe": "Tenebrine Hoe"
 }
