@@ -2,10 +2,7 @@ package net.nishihara;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.nishihara.datagen.ModBlockTagProvider;
-import net.nishihara.datagen.ModLootTableProvider;
-import net.nishihara.datagen.ModModelProvider;
-import net.nishihara.datagen.ModRecipeProvider;
+import net.nishihara.datagen.*;
 
 public class AncientArsenalDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -17,6 +14,7 @@ public class AncientArsenalDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
 
 	}
 }

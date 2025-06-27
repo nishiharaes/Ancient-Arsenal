@@ -11,6 +11,6 @@
     "id": "ancientarsenal:tenebrine_shovel"
   },
   "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
+    "item": "ancientarsenal:tenebrine_upgrade_smithing_template"
   }
 }

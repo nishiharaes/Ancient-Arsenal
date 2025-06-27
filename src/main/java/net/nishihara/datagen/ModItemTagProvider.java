@@ -2,17 +2,15 @@ package net.nishihara.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.nishihara.item.ModItems;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
 public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
-    public ModItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture, @Nullable BlockTagProvider blockTagProvider) {
-        super(output, completableFuture, blockTagProvider);
+    public ModItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {
+        super(output, completableFuture);
     }
 
     @Override
@@ -33,18 +31,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.TENEBRINE_AXE);
 
-        getOrCreateTagBuilder(ItemTags.SWORD_ENCHANTABLE)
-                .add(ModItems.TENEBRINE_SWORD);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.TENEBRINE_HELMET)
+                .add(ModItems.TENEBRINE_CHESTPLATE)
+                .add(ModItems.TENEBRINE_LEGGINGS)
+                .add(ModItems.TENEBRINE_BOOTS);
 
-        getOrCreateTagBuilder(ItemTags.MINING_ENCHANTABLE)
-                .add(ModItems.TENEBRINE_AXE)
-                .add(ModItems.TENEBRINE_PICKAXE)
-                .add(ModItems.TENEBRINE_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR)
+                .add(ModItems.TENEBRINE_HELMET);
 
-        getOrCreateTagBuilder(ItemTags.WEAPON_ENCHANTABLE)
-                .add(ModItems.TENEBRINE_AXE)
-                .add(ModItems.TENEBRINE_SWORD);
+        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR)
+                .add(ModItems.TENEBRINE_CHESTPLATE);
 
+        getOrCreateTagBuilder(ItemTags.LEG_ARMOR)
+                .add(ModItems.TENEBRINE_LEGGINGS);
+
+        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR)
+                .add(ModItems.TENEBRINE_BOOTS);
 
     }
 }

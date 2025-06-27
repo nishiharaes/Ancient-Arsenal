@@ -4,10 +4,25 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.resource.featuretoggle.FeatureFlag;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.nishihara.AncientArsenal;
 
+import java.util.List;
+
 public class ModItems {
+
+    private static final Identifier EMPTY_ARMOR_SLOT_HELMET_TEXTURE = Identifier.ofVanilla("item/empty_armor_slot_helmet");
+    private static final Identifier EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE = Identifier.ofVanilla("item/empty_armor_slot_chestplate");
+    private static final Identifier EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE = Identifier.ofVanilla("item/empty_armor_slot_leggings");
+    private static final Identifier EMPTY_ARMOR_SLOT_BOOTS_TEXTURE = Identifier.ofVanilla("item/empty_armor_slot_boots");
+    private static final Identifier EMPTY_SLOT_HOE_TEXTURE = Identifier.ofVanilla("item/empty_slot_hoe");
+    private static final Identifier EMPTY_SLOT_AXE_TEXTURE = Identifier.ofVanilla("item/empty_slot_axe");
+    private static final Identifier EMPTY_SLOT_SWORD_TEXTURE = Identifier.ofVanilla("item/empty_slot_sword");
+    private static final Identifier EMPTY_SLOT_SHOVEL_TEXTURE = Identifier.ofVanilla("item/empty_slot_shovel");
+    private static final Identifier EMPTY_SLOT_PICKAXE_TEXTURE = Identifier.ofVanilla("item/empty_slot_pickaxe");
+    private static final Identifier EMPTY_SLOT_INGOT_TEXTURE = Identifier.ofVanilla("item/empty_slot_ingot");
 
     public static final Item TENEBRINE_INGOT = registerItem("tenebrine_ingot", new Item(new Item.Settings()));
     public static final Item TENEBRINE_SCRAP = registerItem("tenebrine_scrap", new Item(new Item.Settings()));
@@ -28,6 +43,30 @@ public class ModItems {
             .fireproof()
             .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.TENEBRINE, 0, -3.0f))));
 
+    public static final Item TENEBRINE_UPGRADE_SMITHING_TEMPLATE = registerItem(
+            "tenebrine_upgrade_smithing_template",
+            new SmithingTemplateItem(
+                    Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.applies_to"),
+                    Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.ingredients"),
+                    Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.title"),
+                    Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.base_slot_description"),
+                    Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.additions_slot_description"),
+                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE, EMPTY_SLOT_SWORD_TEXTURE,
+                            EMPTY_SLOT_AXE_TEXTURE, EMPTY_SLOT_SHOVEL_TEXTURE, EMPTY_SLOT_HOE_TEXTURE, EMPTY_SLOT_PICKAXE_TEXTURE),
+                    List.of(EMPTY_SLOT_INGOT_TEXTURE),
+                    new FeatureFlag[]{}
+            )
+    );
+
+    public static final Item TENEBRINE_HELMET = registerItem("tenebrine_helmet", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
+    public static final Item TENEBRINE_CHESTPLATE = registerItem("tenebrine_chestplate", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+            .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(40))));
+    public static final Item TENEBRINE_LEGGINGS = registerItem("tenebrine_leggings", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+            .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
+    public static final Item TENEBRINE_BOOTS = registerItem("tenebrine_boots", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+            .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(AncientArsenal.MOD_ID, name), item);
     }
@@ -38,6 +77,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(TENEBRINE_INGOT);
             entries.add(TENEBRINE_SCRAP);
+            entries.add(TENEBRINE_UPGRADE_SMITHING_TEMPLATE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
@@ -49,6 +89,14 @@ public class ModItems {
             entries.add(TENEBRINE_SHOVEL);
             entries.add(TENEBRINE_HOE);
         });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
+            entries.add(TENEBRINE_HELMET);
+            entries.add(TENEBRINE_CHESTPLATE);
+            entries.add(TENEBRINE_LEGGINGS);
+            entries.add(TENEBRINE_BOOTS);
+        });
+
     }
 
 }

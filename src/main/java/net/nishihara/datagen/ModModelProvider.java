@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.nishihara.block.ModBlocks;
 import net.nishihara.item.ModItems;
 
@@ -32,6 +33,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TENEBRINE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TENEBRINE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TENEBRINE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TENEBRINE_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TENEBRINE_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TENEBRINE_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TENEBRINE_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TENEBRINE_BOOTS);
 
     }
 }

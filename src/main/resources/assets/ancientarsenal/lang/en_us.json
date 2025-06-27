@@ -9,5 +9,18 @@
   "item.ancientarsenal.tenebrine_pickaxe": "Tenebrine Pickaxe",
   "item.ancientarsenal.tenebrine_axe": "Tenebrine Axe",
   "item.ancientarsenal.tenebrine_shovel": "Tenebrine Shovel",
-  "item.ancientarsenal.tenebrine_hoe": "Tenebrine Hoe"
+  "item.ancientarsenal.tenebrine_hoe": "Tenebrine Hoe",
+
+  "item.ancientarsenal.tenebrine_upgrade_smithing_template": "Tenebrine Upgrade Template",
+
+  "item.minecraft.smithing_template.tenebrine_upgrade.applies_to": "Tenebrine-compatible gear",
+  "item.minecraft.smithing_template.tenebrine_upgrade.ingredients": "Tenebrine Ingots",
+  "item.minecraft.smithing_template.tenebrine_upgrade.title": "Tenebrine Upgrade",
+  "item.minecraft.smithing_template.tenebrine_upgrade.base_slot_description": "Insert Netherite Tool or Armor",
+  "item.minecraft.smithing_template.tenebrine_upgrade.additions_slot_description": "Insert Tenebrine Ingot",
+
+  "item.ancientarsenal.tenebrine_helmet": "Tenebrine Helmet",
+  "item.ancientarsenal.tenebrine_chestplate": "Tenebrine Chestplate",
+  "item.ancientarsenal.tenebrine_leggings": "Tenebrine Leggings",
+  "item.ancientarsenal.tenebrine_boots": "Tenebrine Boots"
 }
