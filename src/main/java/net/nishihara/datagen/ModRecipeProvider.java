@@ -39,6 +39,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.IRON_INGOT)
                 .offerTo(recipeExporter);
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PIGSTEEL_INGOT)
+                .criterion(hasItem(ModItems.PIGSTEEL_SCRAP), conditionsFromItem(ModItems.PIGSTEEL_SCRAP))
+                .input(ModItems.PIGSTEEL_SCRAP)
+                .input(ModItems.PIGSTEEL_SCRAP)
+                .input(Items.GOLD_NUGGET)
+                .input(Items.GOLD_NUGGET)
+                .offerTo(recipeExporter);
+
         SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.TENEBRINE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.NETHERITE_SWORD), Ingredient.ofItems(ModItems.TENEBRINE_INGOT), RecipeCategory.COMBAT, ModItems.TENEBRINE_SWORD)
                 .criterion("has_tenebrine_ingot", conditionsFromItem(ModItems.TENEBRINE_INGOT))
                 .offerTo(recipeExporter, "tenebrine_sword_from_smithing");
@@ -87,6 +95,25 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("#C#")
                 .pattern("###")
                 .criterion(hasItem(ModItems.TENEBRINE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.TENEBRINE_UPGRADE_SMITHING_TEMPLATE))
+                .offerTo(recipeExporter);
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_AXE),
+                        Ingredient.ofItems(ModItems.PIGSTEEL_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.PIGSTEEL_AXE
+                ).criterion("has_pigsteel_ingot", conditionsFromItem(ModItems.PIGSTEEL_INGOT))
+                .offerTo(recipeExporter, "pigsteel_axe_from_smithing");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE, 2)
+                .input('#', Blocks.BLACKSTONE)
+                .input('C', ModItems.PIGSTEEL_INGOT)
+                .input('S', ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .criterion(hasItem(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE))
                 .offerTo(recipeExporter);
 
     }

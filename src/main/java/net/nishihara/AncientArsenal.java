@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.nishihara.block.ModBlocks;
 import net.nishihara.item.ModItems;
+import net.nishihara.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,6 +17,7 @@ public class AncientArsenal implements ModInitializer {
 
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
+		ModWorldGeneration.generatemodWorldGen();
 
 	}
 }

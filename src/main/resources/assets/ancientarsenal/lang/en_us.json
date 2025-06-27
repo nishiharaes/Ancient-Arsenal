@@ -13,11 +13,21 @@
 
   "item.ancientarsenal.tenebrine_upgrade_smithing_template": "Tenebrine Upgrade Template",
 
-  "item.minecraft.smithing_template.tenebrine_upgrade.applies_to": "Tenebrine-compatible gear",
-  "item.minecraft.smithing_template.tenebrine_upgrade.ingredients": "Tenebrine Ingots",
+  "item.minecraft.smithing_template.tenebrine_upgrade.applies_to": "Tenebrine equipment",
+  "item.minecraft.smithing_template.tenebrine_upgrade.ingredients": "Tenebrine Ingot",
   "item.minecraft.smithing_template.tenebrine_upgrade.title": "Tenebrine Upgrade",
-  "item.minecraft.smithing_template.tenebrine_upgrade.base_slot_description": "Insert Netherite Tool or Armor",
-  "item.minecraft.smithing_template.tenebrine_upgrade.additions_slot_description": "Insert Tenebrine Ingot",
+  "item.minecraft.smithing_template.tenebrine_upgrade.base_slot_description": "Insert netherite armor, weapon, or tool",
+  "item.minecraft.smithing_template.tenebrine_upgrade.additions_slot_description": "Add Tenebrine Ingot",
+
+  "item.ancientarsenal.pigsteel_axe": "Pigsteel Axe",
+
+  "item.ancientarsenal.pigsteel_upgrade_smithing_template": "Pigsteel Upgrade Template",
+
+  "item.minecraft.smithing_template.pigsteel_upgrade.applies_to": "Pigsteel equipment",
+  "item.minecraft.smithing_template.pigsteel_upgrade.ingredients": "Pigsteel Ingot",
+  "item.minecraft.smithing_template.pigsteel_upgrade.title": "Pigsteel Upgrade",
+  "item.minecraft.smithing_template.pigsteel_upgrade.base_slot_description": "Insert diamond armor, weapon, or tool",
+  "item.minecraft.smithing_template.pigsteel_upgrade.additions_slot_description": "Add Pigsteel Ingot",
 
   "item.ancientarsenal.tenebrine_helmet": "Tenebrine Helmet",
   "item.ancientarsenal.tenebrine_chestplate": "Tenebrine Chestplate",

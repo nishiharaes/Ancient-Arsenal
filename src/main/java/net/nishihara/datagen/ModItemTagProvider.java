@@ -31,6 +31,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.TENEBRINE_AXE);
 
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.PIGSTEEL_AXE);
+
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.TENEBRINE_HELMET)
                 .add(ModItems.TENEBRINE_CHESTPLATE)

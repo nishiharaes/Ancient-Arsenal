@@ -1,4 +1,5 @@
-// 1.21.1	2025-06-27T17:22:30.8112098	Ancient Arsenal/Tags for minecraft:block
+// 1.21.1	2025-06-27T21:20:45.1026083	Ancient Arsenal/Tags for minecraft:block
 14d09ac7a1779806adcde3ba5944df681d9bbf2b data\minecraft\tags\block\needs_diamond_tool.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\ancientarsenal\tags\block\needs_tenebrine_tool.json
+a249c46329a41538f49a564e1f14338aaf1be5a0 data\ancientarsenal\tags\block\needs_pigsteel_tool.json
 14d09ac7a1779806adcde3ba5944df681d9bbf2b data\minecraft\tags\block\mineable\pickaxe.json

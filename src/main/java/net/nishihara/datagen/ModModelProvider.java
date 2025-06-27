@@ -28,17 +28,22 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TENEBRINE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.TENEBRINE_SCRAP, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.PIGSTEEL_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PIGSTEEL_SCRAP, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.TENEBRINE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TENEBRINE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TENEBRINE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TENEBRINE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TENEBRINE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TENEBRINE_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.PIGSTEEL_AXE, Models.HANDHELD);
 
         itemModelGenerator.registerArmor((ArmorItem) ModItems.TENEBRINE_HELMET);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.TENEBRINE_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.TENEBRINE_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.TENEBRINE_BOOTS);
-
     }
 }

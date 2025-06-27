@@ -6,9 +6,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.resource.featuretoggle.FeatureFlag;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import net.nishihara.AncientArsenal;
 
+import java.text.Normalizer;
 import java.util.List;
 
 public class ModItems {
@@ -26,6 +28,23 @@ public class ModItems {
 
     public static final Item TENEBRINE_INGOT = registerItem("tenebrine_ingot", new Item(new Item.Settings()));
     public static final Item TENEBRINE_SCRAP = registerItem("tenebrine_scrap", new Item(new Item.Settings()));
+
+    public static final Item PIGSTEEL_INGOT = registerItem("pigsteel_ingot", new Item(new Item.Settings()));
+    public static final Item PIGSTEEL_SCRAP = registerItem("pigsteel_scrap", new Item(new Item.Settings()));
+
+    public static final Item NAUTILITE_INGOT = registerItem("nautilite_ingot", new Item(new Item.Settings()));
+
+    public static final Item SANDSPIRE_INGOT = registerItem("sandspire_ingot", new Item(new Item.Settings()));
+    public static final Item SANDSTONE_SHARD = registerItem("sandstone_shard", new Item(new Item.Settings()));
+
+    public static final Item HEXWOOD_INGOT = registerItem("hexwood_ingot", new Item(new Item.Settings()));
+    public static final Item INFUSED_WOOD = registerItem("infused_wood", new Item(new Item.Settings()));
+
+    public static final Item BLAZEBOUND_INGOT = registerItem("blazebound_ingot", new Item(new Item.Settings()));
+    public static final Item UNREFINED_BLAZEBOUND_INGOT = registerItem("unrefined_blazebound_ingot", new Item(new Item.Settings()));
+
+    public static final Item CHORUS_ALLOY_INGOT = registerItem("chorus_alloy_ingot", new Item(new Item.Settings()));
+
 
     public static final Item TENEBRINE_SWORD = registerItem("tenebrine_sword", new SwordItem(ModToolMaterials.TENEBRINE, new Item.Settings()
             .fireproof()
@@ -46,9 +65,9 @@ public class ModItems {
     public static final Item TENEBRINE_UPGRADE_SMITHING_TEMPLATE = registerItem(
             "tenebrine_upgrade_smithing_template",
             new SmithingTemplateItem(
-                    Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.applies_to"),
-                    Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.ingredients"),
-                    Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.title"),
+                    Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.applies_to").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.ingredients").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.title").formatted(Formatting.GRAY),
                     Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.base_slot_description"),
                     Text.translatable("item.minecraft.smithing_template.tenebrine_upgrade.additions_slot_description"),
                     List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE, EMPTY_SLOT_SWORD_TEXTURE,
@@ -57,6 +76,25 @@ public class ModItems {
                     new FeatureFlag[]{}
             )
     );
+
+    public static final Item PIGSTEEL_UPGRADE_SMITHING_TEMPLATE = registerItem(
+            "pigsteel_upgrade_smithing_template",
+            new SmithingTemplateItem(
+                    Text.translatable("item.minecraft.smithing_template.pigsteel_upgrade.applies_to").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.pigsteel_upgrade.ingredients").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.pigsteel_upgrade.title").formatted(Formatting.GRAY),
+                    Text.translatable("item.minecraft.smithing_template.pigsteel_upgrade.base_slot_description"),
+                    Text.translatable("item.minecraft.smithing_template.pigsteel_upgrade.additions_slot_description"),
+                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE, EMPTY_SLOT_SWORD_TEXTURE,
+                            EMPTY_SLOT_AXE_TEXTURE, EMPTY_SLOT_SHOVEL_TEXTURE, EMPTY_SLOT_HOE_TEXTURE, EMPTY_SLOT_PICKAXE_TEXTURE),
+                    List.of(EMPTY_SLOT_INGOT_TEXTURE),
+                    new FeatureFlag[]{}
+            )
+    );
+
+    public static final Item PIGSTEEL_AXE = registerItem("pigsteel_axe", new AxeItem(ModToolMaterials.PIGSTEEL, new Item.Settings()
+            .fireproof()
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.TENEBRINE, 6, -3.2f))));
 
     public static final Item TENEBRINE_HELMET = registerItem("tenebrine_helmet", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
             .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
@@ -78,6 +116,12 @@ public class ModItems {
             entries.add(TENEBRINE_INGOT);
             entries.add(TENEBRINE_SCRAP);
             entries.add(TENEBRINE_UPGRADE_SMITHING_TEMPLATE);
+            entries.add(PIGSTEEL_INGOT);
+            entries.add(PIGSTEEL_SCRAP);
+            entries.add(SANDSTONE_SHARD);
+            entries.add(UNREFINED_BLAZEBOUND_INGOT);
+            entries.add(INFUSED_WOOD);
+            entries.add(PIGSTEEL_UPGRADE_SMITHING_TEMPLATE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
@@ -88,6 +132,8 @@ public class ModItems {
             entries.add(TENEBRINE_AXE);
             entries.add(TENEBRINE_SHOVEL);
             entries.add(TENEBRINE_HOE);
+
+            entries.add(PIGSTEEL_AXE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
