@@ -19,6 +19,7 @@ public class AncientArsenalDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModItemTagProvider::new);
+		pack.addProvider(ModRegistryDataGenerator::new);
 	}
 
 	@Override

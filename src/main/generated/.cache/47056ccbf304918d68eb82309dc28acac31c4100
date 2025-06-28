@@ -1,4 +1,4 @@
-// 1.21.1	2025-06-27T21:20:45.101608	Ancient Arsenal/Model Definitions
+// 1.21.1	2025-06-28T10:59:22.9949893	Ancient Arsenal/Model Definitions
 a7b814e735cc4179fe9a682213b5b96245bf04a7 assets\ancientarsenal\models\item\tenebrine_chestplate.json
 d238d2de52b47a4afa588c53a93f81fb68f18a0e assets\ancientarsenal\blockstates\deepslate_tenebrine_ore.json
 54b69d04e66d5e9ec2df8c112e6731ae6282ae55 assets\ancientarsenal\models\item\tenebrine_boots.json
@@ -20,8 +20,8 @@ aaffeeab84980b0558d149dea416eb9e5aacb665 assets\ancientarsenal\models\item\teneb
 026cb9b3a648bc5feb77b38332aaf1a3ebb6e7f4 assets\ancientarsenal\models\item\tenebrine_boots_netherite_trim.json
 d93d3e10893c312ff680d860880f9094b48a4cb3 assets\ancientarsenal\models\item\tenebrine_sword.json
 91ad4df5a0f47e2ce78b4519065e4628891e4a8d assets\ancientarsenal\models\item\tenebrine_boots_diamond_trim.json
-25ee6bb9b41752a7ed039775571a39d3b456c798 assets\ancientarsenal\models\block\tenebrine_ore.json
 3181853978aba192032bbbc88e21d041647e0078 assets\ancientarsenal\models\item\tenebrine_chestplate_gold_trim.json
+25ee6bb9b41752a7ed039775571a39d3b456c798 assets\ancientarsenal\models\block\tenebrine_ore.json
 431da25bb4c3fa841407a8862a538d4ed38fd694 assets\ancientarsenal\models\item\tenebrine_leggings_redstone_trim.json
 a479fbc838237d8a05167007d46b2f579c183562 assets\ancientarsenal\models\item\tenebrine_chestplate_lapis_trim.json
 d86b382b436ba053de48fd4df230aa022d8f8808 assets\ancientarsenal\models\item\tenebrine_leggings_gold_trim.json
