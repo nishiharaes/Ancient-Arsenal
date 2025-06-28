@@ -6,7 +6,6 @@
   <a href="https://modrinth.com/mod/ancient-arsenal" target="_blank">
     <img src="https://img.shields.io/badge/Download_on-Modrinth-1bd96a?style=for-the-badge&logo=modrinth" alt="Download on Modrinth" />
   </a>
-  &nbsp;
   <a href="https://modrinth.com/mod/fabric-api">
     <img src="https://img.shields.io/badge/Requires-Fabric_API-blue?style=for-the-badge" alt="Requires Fabric API" />
   </a>
