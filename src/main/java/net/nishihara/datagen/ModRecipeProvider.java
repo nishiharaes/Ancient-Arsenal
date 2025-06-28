@@ -116,5 +116,42 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE))
                 .offerTo(recipeExporter);
 
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_HELMET),
+                        Ingredient.ofItems(ModItems.PIGSTEEL_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.PIGSTEEL_HELMET
+                ).criterion("has_pigsteel_ingot", conditionsFromItem(ModItems.PIGSTEEL_INGOT))
+                .offerTo(recipeExporter, "pigsteel_helmet_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_CHESTPLATE),
+                        Ingredient.ofItems(ModItems.PIGSTEEL_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.PIGSTEEL_CHESTPLATE
+                ).criterion("has_pigsteel_ingot", conditionsFromItem(ModItems.PIGSTEEL_INGOT))
+                .offerTo(recipeExporter, "pigsteel_chestplate_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_LEGGINGS),
+                        Ingredient.ofItems(ModItems.PIGSTEEL_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.PIGSTEEL_LEGGINGS
+                ).criterion("has_pigsteel_ingot", conditionsFromItem(ModItems.PIGSTEEL_INGOT))
+                .offerTo(recipeExporter, "pigsteel_leggings_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_BOOTS),
+                        Ingredient.ofItems(ModItems.PIGSTEEL_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.PIGSTEEL_BOOTS
+                ).criterion("has_pigsteel_ingot", conditionsFromItem(ModItems.PIGSTEEL_INGOT))
+                .offerTo(recipeExporter, "pigsteel_boots_from_smithing");
+
+
     }
 }

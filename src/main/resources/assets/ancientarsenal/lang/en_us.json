@@ -32,5 +32,10 @@
   "item.ancientarsenal.tenebrine_helmet": "Tenebrine Helmet",
   "item.ancientarsenal.tenebrine_chestplate": "Tenebrine Chestplate",
   "item.ancientarsenal.tenebrine_leggings": "Tenebrine Leggings",
-  "item.ancientarsenal.tenebrine_boots": "Tenebrine Boots"
+  "item.ancientarsenal.tenebrine_boots": "Tenebrine Boots",
+
+  "item.ancientarsenal.pigsteel_helmet": "Pigsteel Helmet",
+  "item.ancientarsenal.pigsteel_chestplate": "Pigsteel Chestplate",
+  "item.ancientarsenal.pigsteel_leggings": "Pigsteel Leggings",
+  "item.ancientarsenal.pigsteel_boots": "Pigsteel Boots"
 }

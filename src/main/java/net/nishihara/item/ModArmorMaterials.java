@@ -24,7 +24,24 @@ public class ModArmorMaterials {
         map.put(ArmorItem.Type.HELMET, 4);
         map.put(ArmorItem.Type.BODY, 12);
     }), 20, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, () -> Ingredient.ofItems(ModItems.TENEBRINE_INGOT),
-            List.of(new ArmorMaterial.Layer(Identifier.of(AncientArsenal.MOD_ID, "tenebrine"))), 3.5f, 0.5f));
+            List.of(new ArmorMaterial.Layer(Identifier.of(AncientArsenal.MOD_ID, "tenebrine"))), 3.0f, 0.2f));
+
+    public static final RegistryEntry<ArmorMaterial> PIGSTEEL_ARMOR_MATERIAL = registerArmorMaterial("pigsteel", () ->
+            new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+                map.put(ArmorItem.Type.BOOTS, 3);
+                map.put(ArmorItem.Type.LEGGINGS, 6);
+                map.put(ArmorItem.Type.CHESTPLATE, 8);
+                map.put(ArmorItem.Type.HELMET, 3);
+                map.put(ArmorItem.Type.BODY, 10);
+            }),
+                    18,
+                    SoundEvents.ITEM_ARMOR_EQUIP_IRON,
+                    () -> Ingredient.ofItems(ModItems.PIGSTEEL_INGOT),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(AncientArsenal.MOD_ID, "pigsteel"))),
+                    2.5f,
+                    0.1f
+            ));
+
 
     public static RegistryEntry<ArmorMaterial> registerArmorMaterial(String name, Supplier<ArmorMaterial> material) {
         return Registry.registerReference(Registries.ARMOR_MATERIAL, Identifier.of(AncientArsenal.MOD_ID, name), material.get());

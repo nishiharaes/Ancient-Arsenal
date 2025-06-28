@@ -85,8 +85,8 @@ public class ModItems {
                     Text.translatable("item.minecraft.smithing_template.pigsteel_upgrade.title").formatted(Formatting.GRAY),
                     Text.translatable("item.minecraft.smithing_template.pigsteel_upgrade.base_slot_description"),
                     Text.translatable("item.minecraft.smithing_template.pigsteel_upgrade.additions_slot_description"),
-                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE, EMPTY_SLOT_SWORD_TEXTURE,
-                            EMPTY_SLOT_AXE_TEXTURE, EMPTY_SLOT_SHOVEL_TEXTURE, EMPTY_SLOT_HOE_TEXTURE, EMPTY_SLOT_PICKAXE_TEXTURE),
+                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE,
+                            EMPTY_SLOT_AXE_TEXTURE),
                     List.of(EMPTY_SLOT_INGOT_TEXTURE),
                     new FeatureFlag[]{}
             )
@@ -104,6 +104,16 @@ public class ModItems {
             .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
     public static final Item TENEBRINE_BOOTS = registerItem("tenebrine_boots", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
             .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
+
+    public static final Item PIGSTEEL_HELMET = registerItem("pigsteel_helmet", new ArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(33))));
+    public static final Item PIGSTEEL_CHESTPLATE = registerItem("pigsteel_chestplate", new ArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+            .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(33))));
+    public static final Item PIGSTEEL_LEGGINGS = registerItem("pigsteel_leggings", new ArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+            .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(33))));
+    public static final Item PIGSTEEL_BOOTS = registerItem("pigsteel_boots", new ArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+            .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(33))));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(AncientArsenal.MOD_ID, name), item);
@@ -141,6 +151,10 @@ public class ModItems {
             entries.add(TENEBRINE_CHESTPLATE);
             entries.add(TENEBRINE_LEGGINGS);
             entries.add(TENEBRINE_BOOTS);
+            entries.add(PIGSTEEL_HELMET);
+            entries.add(PIGSTEEL_CHESTPLATE);
+            entries.add(PIGSTEEL_LEGGINGS);
+            entries.add(PIGSTEEL_BOOTS);
         });
 
     }

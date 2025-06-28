@@ -41,15 +41,19 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.TENEBRINE_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.HEAD_ARMOR)
+                .add(ModItems.TENEBRINE_HELMET)
                 .add(ModItems.TENEBRINE_HELMET);
 
         getOrCreateTagBuilder(ItemTags.CHEST_ARMOR)
+                .add(ModItems.TENEBRINE_CHESTPLATE)
                 .add(ModItems.TENEBRINE_CHESTPLATE);
 
         getOrCreateTagBuilder(ItemTags.LEG_ARMOR)
+                .add(ModItems.TENEBRINE_LEGGINGS)
                 .add(ModItems.TENEBRINE_LEGGINGS);
 
         getOrCreateTagBuilder(ItemTags.FOOT_ARMOR)
+                .add(ModItems.TENEBRINE_BOOTS)
                 .add(ModItems.TENEBRINE_BOOTS);
 
     }

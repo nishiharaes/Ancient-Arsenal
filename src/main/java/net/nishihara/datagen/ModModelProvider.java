@@ -45,5 +45,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.TENEBRINE_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.TENEBRINE_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.TENEBRINE_BOOTS);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.PIGSTEEL_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.PIGSTEEL_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.PIGSTEEL_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.PIGSTEEL_BOOTS);
     }
 }
