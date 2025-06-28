@@ -9,8 +9,10 @@
   <a href="https://modrinth.com/mod/fabric-api">
     <img src="https://img.shields.io/badge/Requires-Fabric_API-blue?style=for-the-badge" alt="Requires Fabric API" />
   </a>
+  <a href="https://github.com/nishiharaes/Ancient-Arsenal">
+    <img src="https://img.shields.io/badge/View_on-GitHub-181717?style=for-the-badge&logo=github" alt="View on GitHub" />
+  </a>
 </div>
-
 
 # 🛡️ Ancient Arsenal
 
