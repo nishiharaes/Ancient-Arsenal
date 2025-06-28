@@ -2,14 +2,14 @@
   <img src="https://nishi.s-ul.eu/KUT7Wvjt" alt="Ancient Arsenal Banner"/>
 </p>
 
-<p align="center">
+<div align="center">
   <a href="https://modrinth.com/mod/ancient-arsenal" target="_blank">
     <img src="https://img.shields.io/badge/Download_on-Modrinth-1bd96a?style=for-the-badge&logo=modrinth" alt="Download on Modrinth" />
   </a>
   <a href="https://modrinth.com/mod/fabric-api">
     <img src="https://img.shields.io/badge/Requires-Fabric_API-blue?style=for-the-badge" alt="Requires Fabric API" />
   </a>
-</p>
+</div>
 
 
 # 🛡️ Ancient Arsenal
