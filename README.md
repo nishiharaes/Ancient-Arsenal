@@ -36,10 +36,10 @@ Ancient Arsenal is a Fabric mod that adds new materials, armor sets, and powerfu
 |----------------|-------------|-----------|----------------|----------------|-----------------------------------------|
 | Tenebrine      | 26          | 3.0       | 0.2            | 20             | Resistance II, Absorption I             |
 | Nautilite      | 23          | 2.5       | 0.1            | 16             | Water Breathing, Dolphin’s Grace        |
-| Pigsteel       | 20          | 2.5       | 0.1            | 18             | Piglin Neutrality                       |
-| Hexwood        | 20          | 2.0       | 0.1            | 18             | Night Vision                            |
+| Pigsteel       | 20          | 2.5       | 0.1            | 18             | Piglin Neutrality, Strength                       |
+| Hexwood        | 20          | 2.0       | 0.1            | 18             | Absorbtion                           |
 | Blazebound     | 17          | 1.5       | 0.0            | 15             | Fire Resistance                         |
-| Sandspire      | 17          | 1.5       | 0.0            | 15             | Speed I                                  |
+| Sandspire      | 17          | 1.5       | 0.0            | 15             | Resistance                                |
 | Chorus Alloy   | 15          | 1.0       | 0.0            | 14             | Slow falling         |
 
 ---
@@ -56,20 +56,6 @@ Ancient Arsenal is a Fabric mod that adds new materials, armor sets, and powerfu
 | Sandspire Upgrade     | Iron Gear        | Sandspire Ingot        | Sandspire Gear   |
 | Chorus Alloy Upgrade  | Iron Gear        | Chorus Alloy Ingot     | Chorus Alloy Gear|
 
-
----
-
-## 🧪 Status Effects
-
-| Armor Set     | Full Set Effect                                      |
-|----------------|------------------------------------------------------|
-| Tenebrine      | Resistance II, Absorption I                          |
-| Nautilite      | Water Breathing, Dolphin’s Grace                     |
-| Pigsteel       | Piglin Neutrality (via `piglin_loved` item tag), Strength     |
-| Hexwood        | Night Vision                                         |
-| Blazebound     | Fire Resistance                                      |
-| Sandspire      | Speed I                                              |
-| Chorus Alloy   | Teleport on damage (WIP)                             |
 
 ---
 
