@@ -38,6 +38,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TENEBRINE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TENEBRINE_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.NAUTILITE_INGOT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.PIGSTEEL_AXE, Models.HANDHELD);
 
@@ -50,5 +53,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.PIGSTEEL_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.PIGSTEEL_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.PIGSTEEL_BOOTS);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.NAUTILITE_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.NAUTILITE_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.NAUTILITE_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.NAUTILITE_BOOTS);
+
+        itemModelGenerator.register(ModItems.NAUTILITE_SWORD, Models.HANDHELD);
     }
 }

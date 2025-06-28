@@ -152,6 +152,64 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ).criterion("has_pigsteel_ingot", conditionsFromItem(ModItems.PIGSTEEL_INGOT))
                 .offerTo(recipeExporter, "pigsteel_boots_from_smithing");
 
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_HELMET),
+                        Ingredient.ofItems(ModItems.NAUTILITE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.NAUTILITE_BOOTS
+                ).criterion("has_nautilite_ingot", conditionsFromItem(ModItems.NAUTILITE_INGOT))
+                .offerTo(recipeExporter, "nautilite_helmet_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_CHESTPLATE),
+                        Ingredient.ofItems(ModItems.NAUTILITE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.NAUTILITE_CHESTPLATE
+                ).criterion("has_nautilite_ingot", conditionsFromItem(ModItems.NAUTILITE_INGOT))
+                .offerTo(recipeExporter, "nautilite_chestplate_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_LEGGINGS),
+                        Ingredient.ofItems(ModItems.NAUTILITE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.NAUTILITE_LEGGINGS
+                ).criterion("has_nautilite_ingot", conditionsFromItem(ModItems.NAUTILITE_INGOT))
+                .offerTo(recipeExporter, "nautilite_leggings_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_BOOTS),
+                        Ingredient.ofItems(ModItems.NAUTILITE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.NAUTILITE_BOOTS
+                ).criterion("has_nautilite_ingot", conditionsFromItem(ModItems.NAUTILITE_INGOT))
+                .offerTo(recipeExporter, "nautilite_boots_from_smithing");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.NAUTILITE_INGOT, 1)
+                .input('S', Items.PRISMARINE_SHARD)
+                .input('I', Items.IRON_INGOT)
+                .input('N', Items.NAUTILUS_SHELL)
+                .pattern("SIS")
+                .pattern("INI")
+                .pattern("SIS")
+                .criterion(hasItem(Items.NAUTILUS_SHELL), conditionsFromItem(Items.NAUTILUS_SHELL))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE, 2)
+                .input('#', Blocks.SAND)
+                .input('C', ModItems.NAUTILITE_INGOT)
+                .input('S', ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .criterion(hasItem(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE))
+                .offerTo(recipeExporter);
+
+
+
 
     }
 }

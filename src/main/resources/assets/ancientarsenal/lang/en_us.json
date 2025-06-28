@@ -13,7 +13,7 @@
 
   "item.ancientarsenal.tenebrine_upgrade_smithing_template": "Tenebrine Upgrade Template",
 
-  "item.minecraft.smithing_template.tenebrine_upgrade.applies_to": "Tenebrine equipment",
+  "item.minecraft.smithing_template.tenebrine_upgrade.applies_to": "Netherite equipment",
   "item.minecraft.smithing_template.tenebrine_upgrade.ingredients": "Tenebrine Ingot",
   "item.minecraft.smithing_template.tenebrine_upgrade.title": "Tenebrine Upgrade",
   "item.minecraft.smithing_template.tenebrine_upgrade.base_slot_description": "Insert netherite armor, weapon, or tool",
@@ -23,7 +23,7 @@
 
   "item.ancientarsenal.pigsteel_upgrade_smithing_template": "Pigsteel Upgrade Template",
 
-  "item.minecraft.smithing_template.pigsteel_upgrade.applies_to": "Pigsteel equipment",
+  "item.minecraft.smithing_template.pigsteel_upgrade.applies_to": "Diamond equipment",
   "item.minecraft.smithing_template.pigsteel_upgrade.ingredients": "Pigsteel Ingot",
   "item.minecraft.smithing_template.pigsteel_upgrade.title": "Pigsteel Upgrade",
   "item.minecraft.smithing_template.pigsteel_upgrade.base_slot_description": "Insert diamond armor, weapon, or tool",
@@ -37,5 +37,39 @@
   "item.ancientarsenal.pigsteel_helmet": "Pigsteel Helmet",
   "item.ancientarsenal.pigsteel_chestplate": "Pigsteel Chestplate",
   "item.ancientarsenal.pigsteel_leggings": "Pigsteel Leggings",
-  "item.ancientarsenal.pigsteel_boots": "Pigsteel Boots"
+  "item.ancientarsenal.pigsteel_boots": "Pigsteel Boots",
+
+  "item.ancientarsenal.nautilite_sword": "Nautilite Sword",
+  "item.ancientarsenal.nautilite_helmet": "Nautilite Helmet",
+  "item.ancientarsenal.nautilite_chestplate": "Nautilite Chestplate",
+  "item.ancientarsenal.nautilite_leggings": "Nautilite Leggings",
+  "item.ancientarsenal.nautilite_boots": "Nautilite Boots",
+
+  "item.ancientarsenal.hexwood_helmet": "Hexwood Helmet",
+  "item.ancientarsenal.hexwood_chestplate": "Hexwood Chestplate",
+  "item.ancientarsenal.hexwood_leggings": "Hexwood Leggings",
+  "item.ancientarsenal.hexwood_boots": "Hexwood Boots",
+
+  "item.ancientarsenal.blazebound_helmet": "Blazebound Helmet",
+  "item.ancientarsenal.blazebound_chestplate": "Blazebound Chestplate",
+  "item.ancientarsenal.blazebound_leggings": "Blazebound Leggings",
+  "item.ancientarsenal.blazebound_boots": "Blazebound Boots",
+
+  "item.ancientarsenal.sandspire_helmet": "Sandspire Helmet",
+  "item.ancientarsenal.sandspire_chestplate": "Sandspire Chestplate",
+  "item.ancientarsenal.sandspire_leggings": "Sandspire Leggings",
+  "item.ancientarsenal.sandspire_boots": "Sandspire Boots",
+
+  "item.ancientarsenal.chorus_alloy_helmet": "Chorus Alloy Helmet",
+  "item.ancientarsenal.chorus_alloy_chestplate": "Chorus Alloy Chestplate",
+  "item.ancientarsenal.chorus_alloy_leggings": "Chorus Alloy Leggings",
+  "item.ancientarsenal.chorus_alloy_boots": "Chorus Alloy Boots",
+
+  "item.ancientarsenal.nautilite_ingot": "Nautilite Ingot",
+  "item.ancientarsenal.nautilite_upgrade_smithing_template": "Nautilite Upgrade Template",
+  "item.minecraft.smithing_template.nautilite_upgrade.applies_to": "Diamond equipment",
+  "item.minecraft.smithing_template.nautilite_upgrade.ingredients": "Nautilite Ingot",
+  "item.minecraft.smithing_template.nautilite_upgrade.title": "Nautilite Upgrade",
+  "item.minecraft.smithing_template.nautilite_upgrade.base_slot_description": "Insert diamond armor, weapon, or tool",
+  "item.minecraft.smithing_template.nautilite_upgrade.additions_slot_description": "Add Nautilite Ingot"
 }
