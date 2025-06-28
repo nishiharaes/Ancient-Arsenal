@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://modrinth.com/mod/fabric-api" target="_blank">
-    <img src="https://imgur.com/Ol1Tcf8.png" alt="Requires Fabric API" width="140"/>
+  <a href="https://modrinth.com/mod/ancient-arsenal" target="_blank">
+    <img src="https://img.shields.io/badge/Download_on-Modrinth-1bd96a?style=for-the-badge&logo=modrinth" alt="Download on Modrinth" />
   </a>
 </p>
 
