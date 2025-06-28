@@ -1,4 +1,18 @@
-![Ancient Arsenal Banner](https://nishi.s-ul.eu/KUT7Wvjt)
+<p align="center">
+  <img src="https://nishi.s-ul.eu/KUT7Wvjt" alt="Ancient Arsenal Banner"/>
+</p>
+
+<p align="center">
+  <a href="https://modrinth.com/mod/fabric-api" target="_blank">
+    <img src="https://imgur.com/Ol1Tcf8.png" alt="Requires Fabric API" width="140"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://modrinth.com/mod/fabric-api">
+    <img src="https://img.shields.io/badge/Requires-Fabric_API-blue?style=for-the-badge" alt="Requires Fabric API">
+  </a>
+</p>
 
 # 🛡️ Ancient Arsenal
 
@@ -83,17 +97,6 @@ Ancient Arsenal is a Fabric mod that adds new materials, armor sets, and powerfu
 | Pigsteel Scrap Ore     | Nether     | *        | Rare      | Diamond Pickaxe      |
 | Unrefined Blazebound Ore         | Nether     | *       | Rare      | Iron Pickaxe      |
 
----
-
-## 🛠️ Requirements
-
-<p>
-  <a href="https://modrinth.com/mod/fabric-api" target="_blank">
-    <img src="https://imgur.com/Ol1Tcf8.png" alt="Requires Fabric API" width="140"/>
-  </a>
-</p>
-
-[![Requires Fabric API](https://img.shields.io/badge/Requires-Fabric_API-blue?style=for-the-badge)](https://modrinth.com/mod/fabric-api)
 
 ---
 
