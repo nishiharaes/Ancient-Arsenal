@@ -1,4 +1,4 @@
-![Ancient Arsenal Banner](https://imgur.com/Ol1Tcf8.png)
+![Ancient Arsenal Banner](https://nishi.s-ul.eu/KUT7Wvjt)
 
 # 🛡️ Ancient Arsenal
 
@@ -35,10 +35,13 @@ Ancient Arsenal is a Fabric mod that adds new materials, armor sets, and powerfu
 | Template Name         | Base Material   | Upgrade Material      | Output Gear     |
 |-----------------------|------------------|------------------------|------------------|
 | Tenebrine Upgrade     | Netherite Gear   | Tenebrine Ingot        | Tenebrine Gear   |
-| Pigsteel Upgrade      | Diamond Gear     | Pigsteel Ingot         | Pigsteel Gear    |
 | Nautilite Upgrade     | Diamond Gear     | Nautilite Ingot        | Nautilite Gear   |
+| Pigsteel Upgrade      | Diamond Gear     | Pigsteel Ingot         | Pigsteel Gear    |
+| Hexwood Upgrade       | Diamond Gear     | Hexwood Ingot          | Hexwood Gear     |
+| Blazebound Upgrade    | Iron Gear        | Blazebound Ingot       | Blazebound Gear  |
+| Sandspire Upgrade     | Iron Gear        | Sandspire Ingot        | Sandspire Gear   |
+| Chorus Alloy Upgrade  | Iron Gear        | Chorus Alloy Ingot     | Chorus Alloy Gear|
 
-> Smithing templates are found in ancient structures and cannot be crafted.
 
 ---
 
@@ -48,7 +51,7 @@ Ancient Arsenal is a Fabric mod that adds new materials, armor sets, and powerfu
 |----------------|------------------------------------------------------|
 | Tenebrine      | Resistance II, Absorption I                          |
 | Nautilite      | Water Breathing, Dolphin’s Grace                     |
-| Pigsteel       | Piglin Neutrality (via `piglin_loved` item tag)     |
+| Pigsteel       | Piglin Neutrality (via `piglin_loved` item tag), Strength     |
 | Hexwood        | Night Vision                                         |
 | Blazebound     | Fire Resistance                                      |
 | Sandspire      | Speed I                                              |
@@ -56,44 +59,19 @@ Ancient Arsenal is a Fabric mod that adds new materials, armor sets, and powerfu
 
 ---
 
-## 🧱 Crafting Recipes
-
-### Nautilite Ingot
-
-S I S
-I Q I
-S I S
-
-yaml
-Copy
-Edit
-
-- `S` = Nautilus Shell  
-- `I` = Iron Ingot  
-- `Q` = Prismarine Shard  
-
-### Tenebrine Ingot *(placeholder)*  
-> Combine Tenebrine Scrap with Blaze Powder at a Smithing Table
-
-### Pigsteel Ingot *(placeholder)*  
-> Smelt Pigsteel Scrap or upgrade using Smithing Table
-
-### Blazebound Ingot *(placeholder)*  
-> Refine Unrefined Blazebound Ingot in custom furnace *(to be added)*
-
----
-
 ## 📦 Materials & Loot
 
 | Item                      | Found In                              |
 |---------------------------|----------------------------------------|
-| Tenebrine Scrap           | Ancient City loot chests               |
-| Pigsteel Scrap            | Bastion Remnant loot chests            |
-| Unrefined Blazebound Ingot| Nether Fortress loot chests            |
-| Infused Wood              | Woodland Mansion loot chests           |
-| Sandstone Shard           | Desert Pyramid loot *(placeholder)*    |
-| Chorus Alloy Ingot        | End City loot *(placeholder)*          |
-| Nautilite Ingot           | Crafted (see recipe above)             |
+| Infused Wood              | Woodland Mansion chests           |
+| Sandstone Shard           | Desert Pyramid chests   |
+| Tenebrine Upgrade Template | Ancient city chests |
+| Pigsteel Upgrade Template | Bastion chests |
+| Blazebound Upgrade Template | Nether Fortress chests |
+| Hexwood Upgrade Template | Woodland Mansion chests |
+| Sandspire Upgrade Template | Desert Temple chests |
+| Nautilite Upgrade Template | Shipwreck chests |
+| Chorus Alloy Upgrade Template | End City and Stronghold chests |
 
 ---
 
@@ -101,18 +79,19 @@ Edit
 
 | Ore                   | Dimension  | Y Levels      | Rarity     | Tool Required         |
 |------------------------|------------|---------------|------------|------------------------|
-| Tenebrine Scrap Ore    | Overworld  | -48 to -16     | Very Rare | Netherite Pickaxe      |
-| Pigsteel Scrap Ore     | Nether     | 8 to 22        | Rare      | Netherite Pickaxe      |
-| Blazebound Ore         | Nether     | 0 to 24        | Rare      | Netherite Pickaxe      |
+| Tenebrine Scrap Ore    | Overworld  | -89 to 11     | Very Rare | Diamond Pickaxe      |
+| Pigsteel Scrap Ore     | Nether     | *        | Rare      | Diamond Pickaxe      |
+| Unrefined Blazebound Ore         | Nether     | *       | Rare      | Iron Pickaxe      |
 
 ---
 
 ## 🛠️ Requirements
 
-### Required Mods
-
-- [Fabric Loader](https://fabricmc.net/use/) — **1.21.1 → 1.21.6**
-- [Fabric API](https://modrinth.com/mod/fabric-api)
+<p>
+  <a href="https://modrinth.com/mod/fabric-api" target="_blank">
+    <img src="https://imgur.com/Ol1Tcf8.png" alt="Requires Fabric API" width="140"/>
+  </a>
+</p>
 
 [![Requires Fabric API](https://img.shields.io/badge/Requires-Fabric_API-blue?style=for-the-badge)](https://modrinth.com/mod/fabric-api)
 
@@ -124,10 +103,3 @@ This mod is released under the [MIT License](https://opensource.org/licenses/MIT
 Feel free to use it in modpacks, forks, or personal projects.
 
 ---
-
-## 🚧 Planned Features
-
-- Forge block to refine custom ingots  
-- Boss mobs with set-specific drops  
-- New enchantments and trinkets  
-- Custom structure generation  
