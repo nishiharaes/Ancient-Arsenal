@@ -1,47 +1,58 @@
-# 🧱 Ancient Arsenal Wiki
+<p align="center">
+  <img src="https://imgur.com/Ol1Tcf8.png" width="300" height="600"/>
+</p>
 
-Welcome to the **Ancient Arsenal** wiki! This page provides a quick overview of the mod's features, materials, armor effects, and how to get started.
+# 🛡️ Ancient Arsenal
 
----
-
-## ⚔️ About the Mod
-
-**Ancient Arsenal** is a Minecraft mod that adds multiple powerful armor sets, each with unique effects and crafting requirements. These sets are built for exploration, combat, and utility across different environments.
+Ancient Arsenal is a [Fabric](https://fabricmc.net) mod that adds new materials, armor sets, and powerful tools to reward exploration and mastery of Minecraft’s forgotten structures.
 
 ---
 
-## 🛡️ Armor Sets & Effects
+## 📦 Features
 
-| Armor Set       | Status Effect(s)                            | Notes                          |
-|------------------|---------------------------------------------|--------------------------------|
-| **Tenebrine**     | Night Vision                                | Great for cave exploration     |
-| **Pigsteel**      | Strength II                                 | Enhances melee damage          |
-| **Nautilite**     | Water Breathing, Dolphin’s Grace           | Ideal for underwater travel    |
-| **Hexwood**       | Absorption I                                | Grants 2 extra hearts          |
-| **Blazebound**    | Fire Resistance                             | Immune to fire and lava        |
-| **Sandspire**     | Resistance II                               | Reduces all incoming damage    |
-| **Chorus Alloy**  | Slow Falling II                             | Prevents fall damage           |
+- 7 New armor sets with unique effects
+- Upgrade paths using custom smithing templates
+- Tools with powerful custom enchantments
+- New rare ores & crafting materials
+- Balanced progression for late-game content
 
 ---
 
-## 🛠️ Crafting & Upgrades
+## 📜 Armor Sets
 
-Each armor set is crafted using its corresponding ingot and upgraded via the **Smithing Table**.
-
-- **Tenebrine**: Netherite ➜ Tenebrine Ingot  
-- **Pigsteel**: Diamond ➜ Pigsteel Ingot  
-- **Nautilite**: Diamond ➜ Nautilite Ingot  
-- **Others**: Crafted directly from their respective ingots  
-
-> 🧱 Upgrade templates are required for Smithing Table recipes.
+| Material       | Total Armor | Toughness | Knockback Res | Enchantability | Special Effects           |
+|----------------|-------------|-----------|----------------|----------------|---------------------------|
+| Tenebrine      | 26          | 3.0       | 0.2            | 20             | Resistance + Absorption   |
+| Nautilite      | 23          | 2.5       | 0.1            | 16             | Water Breathing + Dolphin's Grace |
+| Pigsteel       | 20          | 2.5       | 0.1            | 18             | Piglin Neutrality         |
+| Hexwood        | 20          | 2.0       | 0.1            | 18             | Night Vision              |
+| Blazebound     | 17          | 1.5       | 0.0            | 15             | Fire Resistance           |
+| Sandspire      | 17          | 1.5       | 0.0            | 15             | Speed                     |
+| Chorus Alloy   | 15          | 1.0       | 0.0            | 14             | Ender Warp on damage *(WIP)* |
 
 ---
 
-## 🔥 Example: Nautilite Ingot
+## ⚒️ Upgrade Paths
 
-```diff
-+ Smelting Recipe:
-- 1x Heart of the Sea
-- 1x Prismarine Shard
-- 1x Iron Ingot
-= Nautilite Ingot
+| Template           | Base Material    | Ingredient           | Result           |
+|--------------------|------------------|-----------------------|------------------|
+| Tenebrine Template | Netherite Gear   | Tenebrine Ingot       | Tenebrine Gear   |
+| Pigsteel Template  | Diamond Gear     | Pigsteel Ingot        | Pigsteel Gear    |
+| Nautilite Template | Diamond Gear     | Nautilite Ingot       | Nautilite Gear   |
+
+> Templates are **loot-only** items found in ancient structures.
+
+---
+
+## 🔧 Crafting Recipes
+
+### Nautilite Ingot
+```mcfunction
+Shaped:
+I = Iron Ingot
+S = Nautilus Shell
+Q = Prismarine Shard
+
+S I S
+I Q I
+S I S
