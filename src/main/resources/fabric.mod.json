@@ -3,7 +3,7 @@
 	"id": "ancientarsenal",
 	"version": "${version}",
 	"name": "Ancient Arsenal",
-	"description": "Adds a new tier of tools and armor obtained from looting ancient cities and exploring the deep dark biome.",
+	"description": "Provides new armor sets and tool sets corresponding to different structures!",
 	"authors": [
 		"nishihara"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "https://modrinth.com/project/ancient-arsenal",
 		"sources": "https://github.com/nishiharaes/Ancient-Arsenal"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT License",
 	"icon": "assets/ancientarsenal/icon.png",
 	"environment": "*",
 	"entrypoints": {
