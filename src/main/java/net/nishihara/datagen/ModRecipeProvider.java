@@ -208,6 +208,44 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE))
                 .offerTo(recipeExporter);
 
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.TENEBRINE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.NETHERITE_CHESTPLATE),
+                        Ingredient.ofItems(ModItems.TENEBRINE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.TENEBRINE_HELMET
+                ).criterion("has_tenebrine_ingot", conditionsFromItem(ModItems.TENEBRINE_INGOT))
+                .offerTo(recipeExporter, "tenebrine_helmet_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.TENEBRINE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.NETHERITE_CHESTPLATE),
+                        Ingredient.ofItems(ModItems.TENEBRINE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.TENEBRINE_CHESTPLATE
+                ).criterion("has_tenebrine_ingot", conditionsFromItem(ModItems.TENEBRINE_INGOT))
+                .offerTo(recipeExporter, "tenebrine_chestplate_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.TENEBRINE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.NETHERITE_LEGGINGS),
+                        Ingredient.ofItems(ModItems.TENEBRINE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.TENEBRINE_LEGGINGS
+                ).criterion("has_tenebrine_ingot", conditionsFromItem(ModItems.TENEBRINE_INGOT))
+                .offerTo(recipeExporter, "tenebrine_leggings_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.TENEBRINE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.NETHERITE_BOOTS),
+                        Ingredient.ofItems(ModItems.TENEBRINE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.TENEBRINE_BOOTS
+                ).criterion("has_tenebrine_ingot", conditionsFromItem(ModItems.TENEBRINE_INGOT))
+                .offerTo(recipeExporter, "tenebrine_boots_from_smithing");
+
+
+
 
 
 

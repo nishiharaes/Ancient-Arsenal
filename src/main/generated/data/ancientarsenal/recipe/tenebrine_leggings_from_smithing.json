@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "ancientarsenal:tenebrine_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "ancientarsenal:tenebrine_leggings"
+  },
+  "template": {
+    "item": "ancientarsenal:tenebrine_upgrade_smithing_template"
+  }
+}
