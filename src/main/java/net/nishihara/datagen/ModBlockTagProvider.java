@@ -42,5 +42,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BLAZEBOUND_ORE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_NAUTILITE_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
     }
 }

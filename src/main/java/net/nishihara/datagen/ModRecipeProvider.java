@@ -251,10 +251,105 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.BLAZE_ROD)
                 .offerTo(recipeExporter);
 
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_SWORD),
+                        Ingredient.ofItems(ModItems.BLAZEBOUND_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.BLAZEBOUND_SWORD
+                ).criterion("has_blazebound_ingot", conditionsFromItem(ModItems.BLAZEBOUND_INGOT))
+                .offerTo(recipeExporter, "blazebound_sword_from_smithing");
 
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_PICKAXE),
+                        Ingredient.ofItems(ModItems.BLAZEBOUND_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.BLAZEBOUND_PICKAXE
+                ).criterion("has_blazebound_ingot", conditionsFromItem(ModItems.BLAZEBOUND_INGOT))
+                .offerTo(recipeExporter, "blazebound_pickaxe_from_smithing");
 
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_AXE),
+                        Ingredient.ofItems(ModItems.BLAZEBOUND_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.BLAZEBOUND_AXE
+                ).criterion("has_blazebound_ingot", conditionsFromItem(ModItems.BLAZEBOUND_INGOT))
+                .offerTo(recipeExporter, "blazebound_axe_from_smithing");
 
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_SHOVEL),
+                        Ingredient.ofItems(ModItems.BLAZEBOUND_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.BLAZEBOUND_SHOVEL
+                ).criterion("has_blazebound_ingot", conditionsFromItem(ModItems.BLAZEBOUND_INGOT))
+                .offerTo(recipeExporter, "blazebound_shovel_from_smithing");
 
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_HOE),
+                        Ingredient.ofItems(ModItems.BLAZEBOUND_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.BLAZEBOUND_HOE
+                ).criterion("has_blazebound_ingot", conditionsFromItem(ModItems.BLAZEBOUND_INGOT))
+                .offerTo(recipeExporter, "blazebound_hoe_from_smithing");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE, 2)
+                .input('#', Blocks.NETHERRACK)
+                .input('C', ModItems.BLAZEBOUND_INGOT)
+                .input('S', ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .criterion(hasItem(ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE))
+                .offerTo(recipeExporter);
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_SWORD),
+                        Ingredient.ofItems(ModItems.NAUTILITE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.NAUTILITE_SWORD
+                ).criterion("has_nautilite_ingot", conditionsFromItem(ModItems.NAUTILITE_INGOT))
+                .offerTo(recipeExporter, "nautilite_sword_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_PICKAXE),
+                        Ingredient.ofItems(ModItems.NAUTILITE_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.NAUTILITE_PICKAXE
+                ).criterion("has_nautilite_ingot", conditionsFromItem(ModItems.NAUTILITE_INGOT))
+                .offerTo(recipeExporter, "nautilite_pickaxe_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_AXE),
+                        Ingredient.ofItems(ModItems.NAUTILITE_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.NAUTILITE_AXE
+                ).criterion("has_nautilite_ingot", conditionsFromItem(ModItems.NAUTILITE_INGOT))
+                .offerTo(recipeExporter, "nautilite_axe_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_SHOVEL),
+                        Ingredient.ofItems(ModItems.NAUTILITE_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.NAUTILITE_SHOVEL
+                ).criterion("has_nautilite_ingot", conditionsFromItem(ModItems.NAUTILITE_INGOT))
+                .offerTo(recipeExporter, "nautilite_shovel_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_HOE),
+                        Ingredient.ofItems(ModItems.NAUTILITE_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.NAUTILITE_HOE
+                ).criterion("has_nautilite_ingot", conditionsFromItem(ModItems.NAUTILITE_INGOT))
+                .offerTo(recipeExporter, "nautilite_hoe_from_smithing");
 
     }
 }

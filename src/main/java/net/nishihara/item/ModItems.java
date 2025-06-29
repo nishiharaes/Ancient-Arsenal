@@ -67,14 +67,50 @@ public class ModItems {
 
     // Nautilite toolset
     public static final Item NAUTILITE_SWORD = registerItem("nautilite_sword", new SwordItem(ModToolMaterials.NAUTILITE, new Item.Settings()
-            .fireproof()
-            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.TENEBRINE, 3, -2.4f))));
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.NAUTILITE, 3, -2.4f))));
+
+    public static final Item NAUTILITE_PICKAXE = registerItem("nautilite_pickaxe", new PickaxeItem(ModToolMaterials.NAUTILITE, new Item.Settings()
+            .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.NAUTILITE, 1, -2.8f))));
+
+    public static final Item NAUTILITE_SHOVEL = registerItem("nautilite_shovel", new ShovelItem(ModToolMaterials.NAUTILITE, new Item.Settings()
+            .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.NAUTILITE, 1.5f, -3.0f))));
+
+    public static final Item NAUTILITE_AXE = registerItem("nautilite_axe", new AxeItem(ModToolMaterials.NAUTILITE, new Item.Settings()
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.NAUTILITE, 6, -3.2f))));
+
+    public static final Item NAUTILITE_HOE = registerItem("nautiilite_hoe", new HoeItem(ModToolMaterials.NAUTILITE, new Item.Settings()
+            .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.NAUTILITE, 0, -3.0f))));
 
     // Pigsteel toolset
 
     public static final Item PIGSTEEL_AXE = registerItem("pigsteel_axe", new AxeItem(ModToolMaterials.PIGSTEEL, new Item.Settings()
             .fireproof()
-            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.TENEBRINE, 6, -3.2f))));
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.PIGSTEEL, 6, -3.2f))));
+
+    // Blazebound toolset
+
+    public static final Item BLAZEBOUND_BOW = registerItem("blazebound_bow", new BowItem(new Item.Settings()
+            .fireproof()));
+
+    public static final Item BLAZEBOUND_SWORD = registerItem("blazebound_sword", new SwordItem(ModToolMaterials.BLAZEBOUND, new Item.Settings()
+            .fireproof()
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.BLAZEBOUND, 3, -2.4f))));
+
+    public static final Item BLAZEBOUND_PICKAXE = registerItem("blazebound_pickaxe", new PickaxeItem(ModToolMaterials.BLAZEBOUND, new Item.Settings()
+            .fireproof()
+            .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.BLAZEBOUND, 1, -2.8f))));
+
+    public static final Item BLAZEBOUND_AXE = registerItem("blazebound_axe", new AxeItem(ModToolMaterials.BLAZEBOUND, new Item.Settings()
+            .fireproof()
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.BLAZEBOUND, 6, -3.2f))));
+
+    public static final Item BLAZEBOUND_SHOVEL = registerItem("blazebound_shovel", new ShovelItem(ModToolMaterials.BLAZEBOUND, new Item.Settings()
+            .fireproof()
+            .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.BLAZEBOUND, 1.5f, -3.0f))));
+
+    public static final Item BLAZEBOUND_HOE = registerItem("blazebound_hoe", new HoeItem(ModToolMaterials.BLAZEBOUND, new Item.Settings()
+            .fireproof()
+            .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.BLAZEBOUND, 0, -3.0f))));
 
     // Smithing templates
 
@@ -101,8 +137,8 @@ public class ModItems {
                     Text.translatable("item.minecraft.smithing_template.pigsteel_upgrade.title").formatted(Formatting.GRAY),
                     Text.translatable("item.minecraft.smithing_template.pigsteel_upgrade.base_slot_description"),
                     Text.translatable("item.minecraft.smithing_template.pigsteel_upgrade.additions_slot_description"),
-                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE,
-                            EMPTY_SLOT_AXE_TEXTURE),
+                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE, EMPTY_SLOT_SWORD_TEXTURE,
+                            EMPTY_SLOT_AXE_TEXTURE, EMPTY_SLOT_SHOVEL_TEXTURE, EMPTY_SLOT_HOE_TEXTURE, EMPTY_SLOT_PICKAXE_TEXTURE),
                     List.of(EMPTY_SLOT_INGOT_TEXTURE),
                     new FeatureFlag[]{}
             )
@@ -116,8 +152,23 @@ public class ModItems {
                     Text.translatable("item.minecraft.smithing_template.nautilite_upgrade.title").formatted(Formatting.GRAY),
                     Text.translatable("item.minecraft.smithing_template.nautilite_upgrade.base_slot_description"),
                     Text.translatable("item.minecraft.smithing_template.nautilite_upgrade.additions_slot_description"),
-                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE,
-                            EMPTY_SLOT_SWORD_TEXTURE),
+                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE, EMPTY_SLOT_SWORD_TEXTURE,
+                            EMPTY_SLOT_AXE_TEXTURE, EMPTY_SLOT_SHOVEL_TEXTURE, EMPTY_SLOT_HOE_TEXTURE, EMPTY_SLOT_PICKAXE_TEXTURE),
+                    List.of(EMPTY_SLOT_INGOT_TEXTURE),
+                    new FeatureFlag[]{}
+            )
+    );
+
+    public static final Item BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE = registerItem(
+            "blazebound_upgrade_smithing_template",
+            new SmithingTemplateItem(
+                    Text.translatable("item.minecraft.smithing_template.blazebound_upgrade.applies_to").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.blazebound_upgrade.ingredients").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.blazebound_upgrade.title").formatted(Formatting.GRAY),
+                    Text.translatable("item.minecraft.smithing_template.blazebound_upgrade.base_slot_description"),
+                    Text.translatable("item.minecraft.smithing_template.blazebound_upgrade.additions_slot_description"),
+                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE, EMPTY_SLOT_SWORD_TEXTURE,
+                            EMPTY_SLOT_AXE_TEXTURE, EMPTY_SLOT_SHOVEL_TEXTURE, EMPTY_SLOT_HOE_TEXTURE, EMPTY_SLOT_PICKAXE_TEXTURE),
                     List.of(EMPTY_SLOT_INGOT_TEXTURE),
                     new FeatureFlag[]{}
             )
@@ -199,7 +250,15 @@ public class ModItems {
             entries.add(TENEBRINE_AXE);
             entries.add(TENEBRINE_SHOVEL);
             entries.add(TENEBRINE_HOE);
+            entries.add(NAUTILITE_PICKAXE);
+            entries.add(NAUTILITE_AXE);
+            entries.add(NAUTILITE_SHOVEL);
+            entries.add(NAUTILITE_HOE);
             entries.add(PIGSTEEL_AXE);
+            entries.add(BLAZEBOUND_PICKAXE);
+            entries.add(BLAZEBOUND_AXE);
+            entries.add(BLAZEBOUND_SHOVEL);
+            entries.add(BLAZEBOUND_HOE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
@@ -221,6 +280,8 @@ public class ModItems {
             entries.add(HEXWOOD_CHESTPLATE);
             entries.add(HEXWOOD_LEGGINGS);
             entries.add(HEXWOOD_BOOTS);
+            entries.add(BLAZEBOUND_SWORD);
+            entries.add(BLAZEBOUND_BOW);
             entries.add(BLAZEBOUND_HELMET);
             entries.add(BLAZEBOUND_CHESTPLATE);
             entries.add(BLAZEBOUND_LEGGINGS);

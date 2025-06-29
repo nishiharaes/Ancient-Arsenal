@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "ancientarsenal:nautilite_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "ancientarsenal:nautilite_axe"
+  },
+  "template": {
+    "item": "ancientarsenal:nautilite_upgrade_smithing_template"
+  }
+}

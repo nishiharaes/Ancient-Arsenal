@@ -22,18 +22,18 @@ public class ModArmorItem extends ArmorItem {
                             List.of(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 400, 2, false, false),
                                     new StatusEffectInstance(StatusEffects.ABSORPTION, 100, 1, false, false)))
                     .put(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL,
-                            List.of(new StatusEffectInstance(StatusEffects.STRENGTH, 400, 2, false, false)))
+                            List.of(new StatusEffectInstance(StatusEffects.STRENGTH, 400, 0, false, false)))
                     .put(ModArmorMaterials.NAUTILITE_ARMOR_MATERIAL,
-                            List.of(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 400, 2, false, false),
-                                    new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 400, 2, false, false)))
+                            List.of(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 400, 0, false, false),
+                                    new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 400, 0, false, false)))
                     .put(ModArmorMaterials.HEXWOOD_ARMOR_MATERIAL,
                             List.of(new StatusEffectInstance(StatusEffects.ABSORPTION, 100, 1, false, false)))
                     .put(ModArmorMaterials.BLAZEBOUND_ARMOR_MATERIAL,
-                            List.of(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 400, 2, false, false)))
+                            List.of(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 400, 0, false, false)))
                     .put(ModArmorMaterials.SANDSPIRE_ARMOR_MATERIAL,
-                            List.of(new StatusEffectInstance(StatusEffects.RESISTANCE, 400, 1, false, false)))
+                            List.of(new StatusEffectInstance(StatusEffects.RESISTANCE, 400, 0, false, false)))
                     .put(ModArmorMaterials.CHORUS_ALLOY_ARMOR_MATERIAL,
-                            List.of(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 400, 2, false, false)))
+                            List.of(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 400, 0, false, false)))
                     .build();
 
     public ModArmorItem(RegistryEntry<ArmorMaterial> material, Type type, Settings settings) {

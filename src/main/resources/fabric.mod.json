@@ -23,6 +23,9 @@
 		],
 		"client": [
 			"net.nishihara.AncientArsenalClient"
+		],
+		"mixins": [
+			"net.nishihara.mixin.PiglinBrainMixin"
 		]
 	},
 	"mixins": [

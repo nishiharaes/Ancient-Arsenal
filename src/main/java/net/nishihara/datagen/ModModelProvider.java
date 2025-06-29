@@ -64,5 +64,21 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NAUTILITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.UNREFINED_BLAZEBOUND_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLAZEBOUND_INGOT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.BLAZEBOUND_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BLAZEBOUND_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BLAZEBOUND_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BLAZEBOUND_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BLAZEBOUND_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.BLAZEBOUND_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.BLAZEBOUND_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.BLAZEBOUND_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.BLAZEBOUND_BOOTS);
+
+        itemModelGenerator.register(ModItems.NAUTILITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NAUTILITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NAUTILITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NAUTILITE_SHOVEL, Models.HANDHELD);
     }
 }

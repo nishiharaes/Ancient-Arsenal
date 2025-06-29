@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "ancientarsenal:blazebound_ingot"
+  },
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "ancientarsenal:blazebound_shovel"
+  },
+  "template": {
+    "item": "ancientarsenal:blazebound_upgrade_smithing_template"
+  }
+}

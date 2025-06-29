@@ -40,6 +40,10 @@
   "item.ancientarsenal.pigsteel_boots": "Pigsteel Boots",
 
   "item.ancientarsenal.nautilite_sword": "Nautilite Sword",
+  "item.ancientarsenal.nautilite_pickaxe": "Nautilite Pickaxe",
+  "item.ancientarsenal.nautilite_axe": "Nautilite Axe",
+  "item.ancientarsenal.nautilite_shovel": "Nautilite Shovel",
+  "item.ancientarsenal.nautilite_hoe": "Nautilite Hoe",
   "item.ancientarsenal.nautilite_helmet": "Nautilite Helmet",
   "item.ancientarsenal.nautilite_chestplate": "Nautilite Chestplate",
   "item.ancientarsenal.nautilite_leggings": "Nautilite Leggings",
@@ -78,5 +82,18 @@
 
   "item.ancientarsenal.unrefined_blazebound_ingot": "Unrefined Blazebound Ingot",
   "block.ancientarsenal.blazebound_ore": "Blazebound Ore",
-  "item.ancientarsenal.blazebound_ingot": "Blazebound Ingot"
+  "item.ancientarsenal.blazebound_ingot": "Blazebound Ingot",
+
+  "item.ancientarsenal.blazebound_sword": "Blazebound Sword",
+  "item.ancientarsenal.blazebound_pickaxe": "Blazebound Pickaxe",
+  "item.ancientarsenal.blazebound_axe": "Blazebound Axe",
+  "item.ancientarsenal.blazebound_shovel": "Blazebound Shovel",
+  "item.ancientarsenal.blazebound_hoe": "Blazebound Hoe",
+
+  "item.ancientarsenal.blazebound_upgrade_smithing_template": "Blazebound Upgrade Template",
+  "item.minecraft.smithing_template.blazebound_upgrade.applies_to": "Iron equipment",
+  "item.minecraft.smithing_template.blazebound_upgrade.ingredients": "Blazebound Ingot",
+  "item.minecraft.smithing_template.blazebound_upgrade.title": "Blazebound Upgrade",
+  "item.minecraft.smithing_template.blazebound_upgrade.base_slot_description": "Insert iron armor, weapon, or tool",
+  "item.minecraft.smithing_template.blazebound_upgrade.additions_slot_description": "Add Blazebound Ingot"
 }

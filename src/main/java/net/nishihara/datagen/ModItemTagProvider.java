@@ -17,22 +17,30 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.TENEBRINE_SWORD);
+                .add(ModItems.TENEBRINE_SWORD)
+                .add(ModItems.BLAZEBOUND_SWORD)
+                .add(ModItems.NAUTILITE_SWORD);
 
         getOrCreateTagBuilder(ItemTags.PICKAXES)
-                .add(ModItems.TENEBRINE_PICKAXE);
+                .add(ModItems.TENEBRINE_PICKAXE)
+                .add(ModItems.BLAZEBOUND_PICKAXE)
+                .add(ModItems.NAUTILITE_PICKAXE);
 
         getOrCreateTagBuilder(ItemTags.SHOVELS)
-                .add(ModItems.TENEBRINE_SHOVEL);
+                .add(ModItems.TENEBRINE_SHOVEL)
+                .add(ModItems.BLAZEBOUND_SHOVEL)
+                .add(ModItems.NAUTILITE_SHOVEL);
 
         getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.TENEBRINE_HOE);
+                .add(ModItems.TENEBRINE_HOE)
+                .add(ModItems.BLAZEBOUND_HOE)
+                .add(ModItems.NAUTILITE_HOE);
 
         getOrCreateTagBuilder(ItemTags.AXES)
-                .add(ModItems.TENEBRINE_AXE);
-
-        getOrCreateTagBuilder(ItemTags.AXES)
-                .add(ModItems.PIGSTEEL_AXE);
+                .add(ModItems.TENEBRINE_AXE)
+                .add(ModItems.BLAZEBOUND_AXE)
+                .add(ModItems.PIGSTEEL_AXE)
+                .add(ModItems.NAUTILITE_AXE);
 
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.TENEBRINE_HELMET)
