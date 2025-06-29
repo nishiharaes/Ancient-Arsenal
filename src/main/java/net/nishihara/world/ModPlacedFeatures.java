@@ -18,6 +18,8 @@ import java.util.List;
 
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> TENEBRINE_ORE_PLACED_KEY = registerKey("tenebrine_ore_placed_key");
+    public static final RegistryKey<PlacedFeature> PIGSTEEL_ORE_PLACED_KEY = registerKey("pigsteel_ore_placed_key");
+    public static final RegistryKey<PlacedFeature> BLAZEBOUND_ORE_PLACED_KEY = registerKey("blazebound_ore_placed_key");
 
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -25,6 +27,14 @@ public class ModPlacedFeatures {
         register(context, TENEBRINE_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.TENEBRINE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(8,
                         HeightRangePlacementModifier.trapezoid(YOffset.fixed(-89), YOffset.fixed(11))));
+
+        register(context, PIGSTEEL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PIGSTEEL_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(15,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-120), YOffset.fixed(240))));
+
+        register(context, BLAZEBOUND_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BLAZEBOUND_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(22,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-120), YOffset.fixed(240))));
 
     }
 

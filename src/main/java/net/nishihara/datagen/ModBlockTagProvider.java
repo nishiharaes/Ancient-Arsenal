@@ -22,16 +22,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.DEEPSLATE_TENEBRINE_ORE)
-                .add(ModBlocks.TENEBRINE_ORE);
+                .add(ModBlocks.TENEBRINE_ORE)
+                .add(ModBlocks.BLAZEBOUND_ORE)
+                .add(ModBlocks.PIGSTEEL_ORE);
+
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_PIGSTEEL_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.DEEPSLATE_TENEBRINE_ORE)
-                .add(ModBlocks.TENEBRINE_ORE);
+                .add(ModBlocks.TENEBRINE_ORE)
+                .add(ModBlocks.PIGSTEEL_ORE);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_TENEBRINE_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_PIGSTEEL_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.BLAZEBOUND_ORE);
     }
 }

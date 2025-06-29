@@ -186,7 +186,9 @@ public class ModItems {
             entries.add(PIGSTEEL_SCRAP);
             entries.add(SANDSTONE_SHARD);
             entries.add(UNREFINED_BLAZEBOUND_INGOT);
+            entries.add(BLAZEBOUND_INGOT);
             entries.add(INFUSED_WOOD);
+            entries.add(HEXWOOD_INGOT);
             entries.add(PIGSTEEL_UPGRADE_SMITHING_TEMPLATE);
             entries.add(NAUTILITE_UPGRADE_SMITHING_TEMPLATE);
             entries.add(TENEBRINE_UPGRADE_SMITHING_TEMPLATE);

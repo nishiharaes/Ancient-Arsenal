@@ -19,16 +19,27 @@ import java.util.List;
 
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> TENEBRINE_ORE_KEY = registerKey("tenebrine_ore_key");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> PIGSTEEL_ORE_KEY = registerKey("pigsteel_ore_key");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> BLAZEBOUND_ORE_KEY = registerKey("blazebound_ore_key");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+        RuleTest netherReplaceables = new TagMatchRuleTest(BlockTags.BASE_STONE_NETHER);
 
         List<OreFeatureConfig.Target> overworldTenebrineOres =
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.TENEBRINE_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_TENEBRINE_ORE.getDefaultState()));
 
+        List<OreFeatureConfig.Target> netherPigsteelOres =
+                List.of(OreFeatureConfig.createTarget(netherReplaceables, ModBlocks.PIGSTEEL_ORE.getDefaultState()));
+
+        List<OreFeatureConfig.Target> netherBlazeboundOres =
+                List.of(OreFeatureConfig.createTarget(netherReplaceables, ModBlocks.BLAZEBOUND_ORE.getDefaultState()));
+
         register(context, TENEBRINE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldTenebrineOres, 4));
+        register(context, PIGSTEEL_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherPigsteelOres, 5));
+        register(context, BLAZEBOUND_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherBlazeboundOres, 12));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

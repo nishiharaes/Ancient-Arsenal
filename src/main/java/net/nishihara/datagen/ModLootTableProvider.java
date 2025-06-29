@@ -18,6 +18,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.DEEPSLATE_TENEBRINE_ORE, oreDrops(ModBlocks.DEEPSLATE_TENEBRINE_ORE, ModItems.TENEBRINE_SCRAP));
         addDrop(ModBlocks.TENEBRINE_ORE, oreDrops(ModBlocks.TENEBRINE_ORE, ModItems.TENEBRINE_SCRAP));
+        addDrop(ModBlocks.PIGSTEEL_ORE, oreDrops(ModBlocks.PIGSTEEL_ORE, ModItems.PIGSTEEL_SCRAP));
+        addDrop(ModBlocks.BLAZEBOUND_ORE, oreDrops(ModBlocks.BLAZEBOUND_ORE, ModItems.UNREFINED_BLAZEBOUND_INGOT));
 
     }
 }

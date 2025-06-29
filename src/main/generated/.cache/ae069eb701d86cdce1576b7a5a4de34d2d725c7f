@@ -1,3 +1,7 @@
-// 1.21.1	2025-06-29T03:57:11.1825383	Ancient Arsenal/
+// 1.21.1	2025-06-29T16:09:29.4284729	Ancient Arsenal/
+7078bbd2bd5a5dc37dad16e77a03424923ea4cc7 data\ancientarsenal\worldgen\configured_feature\blazebound_ore_key.json
 89f0b63fa83a0509f78a7eaab5b7be6ab51611d0 data\ancientarsenal\worldgen\configured_feature\tenebrine_ore_key.json
+de7529de4c52f63f8a846cf17762f8ce2e6e50da data\ancientarsenal\worldgen\configured_feature\pigsteel_ore_key.json
+00bc2e59dc6e6b33f9bec9ead0529447a3c42acb data\ancientarsenal\worldgen\placed_feature\blazebound_ore_placed_key.json
 5d73eda8c8afda055687fd0be92c09e9c7f11b97 data\ancientarsenal\worldgen\placed_feature\tenebrine_ore_placed_key.json
+4c7600c79de5f94233e7fb65cb9823caa5af381e data\ancientarsenal\worldgen\placed_feature\pigsteel_ore_placed_key.json

@@ -17,6 +17,18 @@ import net.nishihara.AncientArsenal;
 
 public class ModBlocks {
 
+    public static final Block PIGSTEEL_ORE = registerBlock("pigsteel_ore", new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create()
+            .strength(4f)
+            .mapColor(MapColor.DARK_RED)
+            .sounds(BlockSoundGroup.NETHERRACK)
+            .requiresTool()));
+
+    public static final Block BLAZEBOUND_ORE = registerBlock("blazebound_ore", new ExperienceDroppingBlock(UniformIntProvider.create(2, 4), AbstractBlock.Settings.create()
+            .strength(3f)
+            .mapColor(MapColor.DARK_RED)
+            .sounds(BlockSoundGroup.NETHERRACK)
+            .requiresTool()));
+
     public static final Block TENEBRINE_ORE = registerBlock("tenebrine_ore", new ExperienceDroppingBlock(UniformIntProvider.create(3, 6), AbstractBlock.Settings.create()
             .strength(4f)
             .requiresTool()
@@ -44,6 +56,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(TENEBRINE_ORE);
             entries.add(DEEPSLATE_TENEBRINE_ORE);
+            entries.add(PIGSTEEL_ORE);
         });
     }
 

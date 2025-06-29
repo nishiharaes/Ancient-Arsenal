@@ -12,5 +12,13 @@ public class ModOreGeneration {
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.DEEP_DARK, BiomeKeys.STONY_PEAKS),
                 GenerationStep.Feature.UNDERGROUND_ORES,
                 ModPlacedFeatures.TENEBRINE_ORE_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(),
+                GenerationStep.Feature.UNDERGROUND_ORES,
+                ModPlacedFeatures.PIGSTEEL_ORE_PLACED_KEY);
+
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(),
+                GenerationStep.Feature.UNDERGROUND_ORES,
+                ModPlacedFeatures.BLAZEBOUND_ORE_PLACED_KEY);
     }
 }

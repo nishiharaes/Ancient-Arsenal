@@ -71,5 +71,12 @@
   "item.minecraft.smithing_template.nautilite_upgrade.ingredients": "Nautilite Ingot",
   "item.minecraft.smithing_template.nautilite_upgrade.title": "Nautilite Upgrade",
   "item.minecraft.smithing_template.nautilite_upgrade.base_slot_description": "Insert diamond armor, weapon, or tool",
-  "item.minecraft.smithing_template.nautilite_upgrade.additions_slot_description": "Add Nautilite Ingot"
+  "item.minecraft.smithing_template.nautilite_upgrade.additions_slot_description": "Add Nautilite Ingot",
+
+  "item.ancientarsenal.pigsteel_scrap": "Pigsteel Scrap",
+  "block.ancientarsenal.pigsteel_ore": "Pigsteel Ore",
+
+  "item.ancientarsenal.unrefined_blazebound_ingot": "Unrefined Blazebound Ingot",
+  "block.ancientarsenal.blazebound_ore": "Blazebound Ore",
+  "item.ancientarsenal.blazebound_ingot": "Blazebound Ingot"
 }

@@ -244,6 +244,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ).criterion("has_tenebrine_ingot", conditionsFromItem(ModItems.TENEBRINE_INGOT))
                 .offerTo(recipeExporter, "tenebrine_boots_from_smithing");
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.BLAZEBOUND_INGOT)
+                .criterion(hasItem(ModItems.UNREFINED_BLAZEBOUND_INGOT), conditionsFromItem(ModItems.UNREFINED_BLAZEBOUND_INGOT))
+                .input(ModItems.UNREFINED_BLAZEBOUND_INGOT)
+                .input(Items.BLAZE_ROD)
+                .input(Items.BLAZE_ROD)
+                .offerTo(recipeExporter);
+
 
 
 

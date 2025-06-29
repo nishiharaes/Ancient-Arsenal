@@ -19,6 +19,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TENEBRINE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TENEBRINE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLAZEBOUND_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PIGSTEEL_ORE);
 
     }
 
@@ -60,5 +62,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.NAUTILITE_BOOTS);
 
         itemModelGenerator.register(ModItems.NAUTILITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.UNREFINED_BLAZEBOUND_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLAZEBOUND_INGOT, Models.GENERATED);
     }
 }
