@@ -80,5 +80,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NAUTILITE_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NAUTILITE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NAUTILITE_SHOVEL, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.HEXWOOD_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.HEXWOOD_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.HEXWOOD_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.HEXWOOD_BOOTS);
+        itemModelGenerator.register(ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.HEXWOOD_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.INFUSED_WOOD, Models.GENERATED);
     }
 }

@@ -78,7 +78,7 @@ public class ModItems {
     public static final Item NAUTILITE_AXE = registerItem("nautilite_axe", new AxeItem(ModToolMaterials.NAUTILITE, new Item.Settings()
             .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.NAUTILITE, 6, -3.2f))));
 
-    public static final Item NAUTILITE_HOE = registerItem("nautiilite_hoe", new HoeItem(ModToolMaterials.NAUTILITE, new Item.Settings()
+    public static final Item NAUTILITE_HOE = registerItem("nautilite_hoe", new HoeItem(ModToolMaterials.NAUTILITE, new Item.Settings()
             .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.NAUTILITE, 0, -3.0f))));
 
     // Pigsteel toolset
@@ -174,6 +174,21 @@ public class ModItems {
             )
     );
 
+    public static final Item HEXWOOD_UPGRADE_SMITHING_TEMPLATE = registerItem(
+            "hexwood_upgrade_smithing_template",
+            new SmithingTemplateItem(
+                    Text.translatable("item.minecraft.smithing_template.hexwood_upgrade.applies_to").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.hexwood_upgrade.ingredients").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.hexwood_upgrade.title").formatted(Formatting.GRAY),
+                    Text.translatable("item.minecraft.smithing_template.hexwood_upgrade.base_slot_description"),
+                    Text.translatable("item.minecraft.smithing_template.hexwood_upgrade.additions_slot_description"),
+                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE, EMPTY_SLOT_SWORD_TEXTURE,
+                            EMPTY_SLOT_AXE_TEXTURE, EMPTY_SLOT_SHOVEL_TEXTURE, EMPTY_SLOT_HOE_TEXTURE, EMPTY_SLOT_PICKAXE_TEXTURE),
+                    List.of(EMPTY_SLOT_INGOT_TEXTURE),
+                    new FeatureFlag[]{}
+            )
+    );
+
     // Armor register
     // Tenebrine Armor
     public static final Item TENEBRINE_HELMET = registerItem("tenebrine_helmet", new ModArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
@@ -243,6 +258,7 @@ public class ModItems {
             entries.add(PIGSTEEL_UPGRADE_SMITHING_TEMPLATE);
             entries.add(NAUTILITE_UPGRADE_SMITHING_TEMPLATE);
             entries.add(TENEBRINE_UPGRADE_SMITHING_TEMPLATE);
+            entries.add(HEXWOOD_UPGRADE_SMITHING_TEMPLATE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {

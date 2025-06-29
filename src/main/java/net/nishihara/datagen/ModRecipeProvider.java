@@ -306,6 +306,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE))
                 .offerTo(recipeExporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE, 2)
+                .input('#', Blocks.DARK_OAK_LOG)
+                .input('C', ModItems.HEXWOOD_INGOT)
+                .input('S', ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .criterion(hasItem(ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE))
+                .offerTo(recipeExporter);
+
         SmithingTransformRecipeJsonBuilder.create(
                         Ingredient.ofItems(ModItems.NAUTILITE_UPGRADE_SMITHING_TEMPLATE),
                         Ingredient.ofItems(Items.DIAMOND_SWORD),
@@ -350,6 +360,49 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         ModItems.NAUTILITE_HOE
                 ).criterion("has_nautilite_ingot", conditionsFromItem(ModItems.NAUTILITE_INGOT))
                 .offerTo(recipeExporter, "nautilite_hoe_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_HELMET),
+                        Ingredient.ofItems(ModItems.HEXWOOD_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.HEXWOOD_HELMET
+                ).criterion("has_hexwood_ingot", conditionsFromItem(ModItems.HEXWOOD_INGOT))
+                .offerTo(recipeExporter, "hexwood_helmet_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_CHESTPLATE),
+                        Ingredient.ofItems(ModItems.HEXWOOD_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.HEXWOOD_CHESTPLATE
+                ).criterion("has_hexwood_ingot", conditionsFromItem(ModItems.HEXWOOD_INGOT))
+                .offerTo(recipeExporter, "hexwood_chestplate_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_LEGGINGS),
+                        Ingredient.ofItems(ModItems.HEXWOOD_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.HEXWOOD_LEGGINGS
+                ).criterion("has_hexwood_ingot", conditionsFromItem(ModItems.HEXWOOD_INGOT))
+                .offerTo(recipeExporter, "hexwood_leggings_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_BOOTS),
+                        Ingredient.ofItems(ModItems.HEXWOOD_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.HEXWOOD_BOOTS
+                ).criterion("has_hexwood_ingot", conditionsFromItem(ModItems.HEXWOOD_INGOT))
+                .offerTo(recipeExporter, "hexwood_boots_from_smithing");
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.HEXWOOD_INGOT)
+                .criterion(hasItem(ModItems.INFUSED_WOOD), conditionsFromItem(ModItems.INFUSED_WOOD))
+                .input(ModItems.INFUSED_WOOD)
+                .input(Items.EMERALD)
+                .input(Items.EMERALD)
+                .offerTo(recipeExporter);
 
     }
 }

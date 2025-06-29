@@ -1,12 +1,12 @@
-// 1.21.1	2025-06-29T19:44:09.823883	Ancient Arsenal/Tags for minecraft:item
+// 1.21.1	2025-06-29T23:09:06.4355312	Ancient Arsenal/Tags for minecraft:item
 b496e61b8e76ad9f32321983b687e8a6e78cfcbb data\minecraft\tags\item\head_armor.json
 1693fa460314ac4b6d8b17a231b941837286e97a data\minecraft\tags\item\pickaxes.json
 14cb66b0d0bedefb81d075640c4d67eca5a5eb38 data\minecraft\tags\item\leg_armor.json
 f8becf08610ed41011248daaf7e0a9203faa7734 data\minecraft\tags\item\swords.json
 f43ca6df945c963a454ef0c3ed0d5035471bfde4 data\minecraft\tags\item\chest_armor.json
+2b1331c5464bbc6eda50853273c59f900ebdbd46 data\minecraft\tags\item\hoes.json
 739299e62eb1ba04a7ede5a45c457e51ccc665f4 data\minecraft\tags\item\trimmable_armor.json
-762011c26912f31cd08e4b02ac25b8e2c8085f55 data\minecraft\tags\item\hoes.json
 bbd812691470c52ecaf0c1c5c8a82514b670e29b data\minecraft\tags\item\shovels.json
-c8bb3b7dd2cb3cd10f388455b4a2318191a2efbe data\minecraft\tags\item\foot_armor.json
 f5e79f76c2417f509d89422d011025e4a87449ed data\minecraft\tags\item\axes.json
+c8bb3b7dd2cb3cd10f388455b4a2318191a2efbe data\minecraft\tags\item\foot_armor.json
 d1e2add84cb792becfdb926a6441fb8aa15ce9ef data\minecraft\tags\item\piglin_loved.json

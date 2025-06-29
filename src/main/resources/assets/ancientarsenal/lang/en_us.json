@@ -95,5 +95,20 @@
   "item.minecraft.smithing_template.blazebound_upgrade.ingredients": "Blazebound Ingot",
   "item.minecraft.smithing_template.blazebound_upgrade.title": "Blazebound Upgrade",
   "item.minecraft.smithing_template.blazebound_upgrade.base_slot_description": "Insert iron armor, weapon, or tool",
-  "item.minecraft.smithing_template.blazebound_upgrade.additions_slot_description": "Add Blazebound Ingot"
+  "item.minecraft.smithing_template.blazebound_upgrade.additions_slot_description": "Add Blazebound Ingot",
+
+  "item.minecraft.hexwood_helmet": "Hexwood Helmet",
+  "item.minecraft.hexwood_chestplate": "Hexwood Chestplate",
+  "item.minecraft.hexwood_leggings": "Hexwood Leggings",
+  "item.minecraft.hexwood_boots": "Hexwood Boots",
+
+  "item.ancientarsenal:hexwood_ingot": "Hexwood Ingot",
+  "item.ancientarsenal:infused_wood": "Infused Wood",
+
+  "item.ancientarsenal.hexwood_upgrade_smithing_template": "Hexwood Upgrade Template",
+  "item.minecraft.smithing_hexwood.hexwood_upgrade.applies_to": "Diamond equipment",
+  "item.minecraft.smithing_hexwood.hexwood_upgrade.ingredients": "Hexwood Ingot",
+  "item.minecraft.smithing_hexwood.hexwood_upgrade.title": "Hexwood Upgrade",
+  "item.minecraft.smithing_hexwood.hexwood_upgrade.base_slot_description": "Insert diamond armor, weapon, or tool",
+  "item.minecraft.smithing_hexwood.hexwood_upgrade.additions_slot_description": "Add Hexwood Ingot"
 }

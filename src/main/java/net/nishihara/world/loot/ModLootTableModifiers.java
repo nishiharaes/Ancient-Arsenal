@@ -108,5 +108,29 @@ public class ModLootTableModifiers {
                 tableBuilder.pool(poolBuilder.build());
             }
         });
+
+        LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
+            if(LootTables.WOODLAND_MANSION_CHEST.equals(key)){
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.25f))
+                        .with(ItemEntry.builder(ModItems.INFUSED_WOOD))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0f, 4.0f)));
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+        });
+
+        LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
+            if(LootTables.WOODLAND_MANSION_CHEST.equals(key)){
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.18f))
+                        .with(ItemEntry.builder(ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)));
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+        });
     }
 }
