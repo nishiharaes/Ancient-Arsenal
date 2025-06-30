@@ -36,7 +36,7 @@ Ancient Arsenal is a Fabric mod that adds new materials, armor sets, and powerfu
 | Hexwood        | 20          | 2.0       | 0.1            | 18             | Absorbtion                           |
 | Blazebound     | 17          | 1.5       | 0.0            | 15             | Fire Resistance                         |
 | Sandspire      | 17          | 1.5       | 0.0            | 15             | Resistance                                |
-| Chorus Alloy   | 15          | 1.0       | 0.0            | 14             | Slow falling         |
+| Chorus Alloy   | 17          | 1.0       | 0.0            | 14             | Slow falling         |
 
 ---
 
