@@ -55,33 +55,6 @@ Ancient Arsenal is a Fabric mod that adds new materials, armor sets, and powerfu
 
 ---
 
-## 📦 Materials & Loot
-
-| Item                      | Found In                              |
-|---------------------------|----------------------------------------|
-| Infused Wood              | Woodland Mansion chests           |
-| Sandstone Shard           | Desert Pyramid chests   |
-| Tenebrine Upgrade Template | Ancient city chests |
-| Pigsteel Upgrade Template | Bastion chests |
-| Blazebound Upgrade Template | Nether Fortress chests |
-| Hexwood Upgrade Template | Woodland Mansion chests |
-| Sandspire Upgrade Template | Desert Temple chests |
-| Nautilite Upgrade Template | Shipwreck chests |
-| Chorus Alloy Upgrade Template | End City and Stronghold chests |
-
----
-
-## ⛏️ Ore Generation
-
-| Ore                   | Dimension  | Y Levels      | Rarity     | Tool Required         |
-|------------------------|------------|---------------|------------|------------------------|
-| Tenebrine Scrap Ore    | Overworld  | -89 to 11     | Very Rare | Diamond Pickaxe      |
-| Pigsteel Scrap Ore     | Nether     | *        | Rare      | Diamond Pickaxe      |
-| Unrefined Blazebound Ore         | Nether     | *       | Rare      | Iron Pickaxe      |
-
-
----
-
 ## 📜 License
 
 This mod is released under the [MIT License](https://opensource.org/licenses/MIT).  
