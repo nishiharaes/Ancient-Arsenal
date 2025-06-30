@@ -123,9 +123,6 @@ public class ModItems {
 
     // Blazebound toolset
 
-    public static final Item BLAZEBOUND_BOW = registerItem("blazebound_bow", new BowItem(new Item.Settings()
-            .fireproof()));
-
     public static final Item BLAZEBOUND_SWORD = registerItem("blazebound_sword", new SwordItem(ModToolMaterials.BLAZEBOUND, new Item.Settings()
             .fireproof()
             .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.BLAZEBOUND, 3, -2.4f))));
@@ -416,7 +413,6 @@ public class ModItems {
             entries.add(HEXWOOD_LEGGINGS);
             entries.add(HEXWOOD_BOOTS);
             entries.add(BLAZEBOUND_SWORD);
-            entries.add(BLAZEBOUND_BOW);
             entries.add(BLAZEBOUND_HELMET);
             entries.add(BLAZEBOUND_CHESTPLATE);
             entries.add(BLAZEBOUND_LEGGINGS);
