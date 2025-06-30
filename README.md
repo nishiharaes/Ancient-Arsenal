@@ -13,6 +13,7 @@
 # 🛡️ Ancient Arsenal
 
 Ancient Arsenal is a Fabric mod that adds new materials, armor sets, and powerful tools to reward exploration and mastery of Minecraft’s forgotten structures.
+Visit the [Wiki](https://github.com/nishiharaes/Ancient-Arsenal/wiki) to learn more!
 
 ---
 
