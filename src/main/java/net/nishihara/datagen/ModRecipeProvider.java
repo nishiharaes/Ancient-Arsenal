@@ -404,5 +404,239 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(Items.EMERALD)
                 .offerTo(recipeExporter);
 
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_SWORD),
+                        Ingredient.ofItems(ModItems.PIGSTEEL_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.PIGSTEEL_SWORD
+                ).criterion("has_pigsteel_ingot", conditionsFromItem(ModItems.PIGSTEEL_INGOT))
+                .offerTo(recipeExporter, "pigsteel_sword_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_PICKAXE),
+                        Ingredient.ofItems(ModItems.PIGSTEEL_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.PIGSTEEL_PICKAXE
+                ).criterion("has_pigsteel_ingot", conditionsFromItem(ModItems.PIGSTEEL_INGOT))
+                .offerTo(recipeExporter, "pigsteel_pickaxe_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_SHOVEL),
+                        Ingredient.ofItems(ModItems.PIGSTEEL_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.PIGSTEEL_SHOVEL
+                ).criterion("has_pigsteel_ingot", conditionsFromItem(ModItems.PIGSTEEL_INGOT))
+                .offerTo(recipeExporter, "pigsteel_shovel_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.PIGSTEEL_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.DIAMOND_HOE),
+                        Ingredient.ofItems(ModItems.PIGSTEEL_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.PIGSTEEL_HOE
+                ).criterion("has_pigsteel_ingot", conditionsFromItem(ModItems.PIGSTEEL_INGOT))
+                .offerTo(recipeExporter, "pigsteel_hoe_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_HELMET),
+                        Ingredient.ofItems(ModItems.SANDSPIRE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.SANDSPIRE_HELMET
+                ).criterion("has_sandspire_ingot", conditionsFromItem(ModItems.SANDSPIRE_INGOT))
+                .offerTo(recipeExporter, "sandspire_helmet_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_CHESTPLATE),
+                        Ingredient.ofItems(ModItems.SANDSPIRE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.SANDSPIRE_CHESTPLATE
+                ).criterion("has_sandspire_ingot", conditionsFromItem(ModItems.SANDSPIRE_INGOT))
+                .offerTo(recipeExporter, "sandspire_chestplate_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_LEGGINGS),
+                        Ingredient.ofItems(ModItems.SANDSPIRE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.SANDSPIRE_LEGGINGS
+                ).criterion("has_sandspire_ingot", conditionsFromItem(ModItems.SANDSPIRE_INGOT))
+                .offerTo(recipeExporter, "sandspire_leggings_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_BOOTS),
+                        Ingredient.ofItems(ModItems.SANDSPIRE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.SANDSPIRE_BOOTS
+                ).criterion("has_sandspire_ingot", conditionsFromItem(ModItems.SANDSPIRE_INGOT))
+                .offerTo(recipeExporter, "sandspire_boots_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_SWORD),
+                        Ingredient.ofItems(ModItems.SANDSPIRE_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.SANDSPIRE_SWORD
+                ).criterion("has_sandspire_ingot", conditionsFromItem(ModItems.SANDSPIRE_INGOT))
+                .offerTo(recipeExporter, "sandspire_sword_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_PICKAXE),
+                        Ingredient.ofItems(ModItems.SANDSPIRE_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.SANDSPIRE_PICKAXE
+                ).criterion("has_sandspire_ingot", conditionsFromItem(ModItems.SANDSPIRE_INGOT))
+                .offerTo(recipeExporter, "sandspire_pickaxe_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_AXE),
+                        Ingredient.ofItems(ModItems.SANDSPIRE_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.SANDSPIRE_AXE
+                ).criterion("has_sandspire_ingot", conditionsFromItem(ModItems.SANDSPIRE_INGOT))
+                .offerTo(recipeExporter, "sandspire_axe_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_SHOVEL),
+                        Ingredient.ofItems(ModItems.SANDSPIRE_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.SANDSPIRE_SHOVEL
+                ).criterion("has_sandspire_ingot", conditionsFromItem(ModItems.SANDSPIRE_INGOT))
+                .offerTo(recipeExporter, "sandspire_shovel_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_HOE),
+                        Ingredient.ofItems(ModItems.SANDSPIRE_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.SANDSPIRE_HOE
+                ).criterion("has_sandspire_ingot", conditionsFromItem(ModItems.SANDSPIRE_INGOT))
+                .offerTo(recipeExporter, "sandspire_hoe_from_smithing");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE, 2)
+                .input('#', Blocks.RED_TERRACOTTA)
+                .input('C', ModItems.SANDSPIRE_INGOT)
+                .input('S', ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .criterion(hasItem(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SANDSPIRE_INGOT, 1)
+                .input('C', ModItems.SANDSPIRE_SHARD)
+                .input('#', Blocks.SAND)
+                .pattern("###")
+                .pattern("#C#")
+                .pattern("###")
+                .criterion(hasItem(ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.HEXWOOD_UPGRADE_SMITHING_TEMPLATE))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE, 2)
+                .input('#', Blocks.END_STONE)
+                .input('C', ModItems.CHORUS_ALLOY_INGOT)
+                .input('S', ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE)
+                .pattern("#S#")
+                .pattern("#C#")
+                .pattern("###")
+                .criterion(hasItem(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE))
+                .offerTo(recipeExporter);
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_HELMET),
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.CHORUS_ALLOY_HELMET
+                ).criterion("has_chorus_alloy_ingot", conditionsFromItem(ModItems.CHORUS_ALLOY_INGOT))
+                .offerTo(recipeExporter, "chorus_alloy_helmet_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_CHESTPLATE),
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.CHORUS_ALLOY_CHESTPLATE
+                ).criterion("has_chorus_alloy_ingot", conditionsFromItem(ModItems.CHORUS_ALLOY_INGOT))
+                .offerTo(recipeExporter, "chorus_alloy_chestplate_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_LEGGINGS),
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.CHORUS_ALLOY_LEGGINGS
+                ).criterion("has_chorus_alloy_ingot", conditionsFromItem(ModItems.CHORUS_ALLOY_INGOT))
+                .offerTo(recipeExporter, "chorus_alloy_leggings_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_BOOTS),
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.CHORUS_ALLOY_BOOTS
+                ).criterion("has_chorus_alloy_ingot", conditionsFromItem(ModItems.CHORUS_ALLOY_INGOT))
+                .offerTo(recipeExporter, "chorus_alloy_boots_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_SWORD),
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT),
+                        RecipeCategory.COMBAT,
+                        ModItems.CHORUS_ALLOY_SWORD
+                ).criterion("has_chorus_alloy_ingot", conditionsFromItem(ModItems.CHORUS_ALLOY_INGOT))
+                .offerTo(recipeExporter, "chorus_alloy_sword_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_PICKAXE),
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.CHORUS_ALLOY_PICKAXE
+                ).criterion("has_chorus_alloy_ingot", conditionsFromItem(ModItems.CHORUS_ALLOY_INGOT))
+                .offerTo(recipeExporter, "chorus_alloy_pickaxe_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_AXE),
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.CHORUS_ALLOY_AXE
+                ).criterion("has_chorus_alloy_ingot", conditionsFromItem(ModItems.CHORUS_ALLOY_INGOT))
+                .offerTo(recipeExporter, "chorus_alloy_axe_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_SHOVEL),
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.CHORUS_ALLOY_SHOVEL
+                ).criterion("has_chorus_alloy_ingot", conditionsFromItem(ModItems.CHORUS_ALLOY_INGOT))
+                .offerTo(recipeExporter, "chorus_alloy_shovel_from_smithing");
+
+        SmithingTransformRecipeJsonBuilder.create(
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE),
+                        Ingredient.ofItems(Items.IRON_HOE),
+                        Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT),
+                        RecipeCategory.TOOLS,
+                        ModItems.CHORUS_ALLOY_HOE
+                ).criterion("has_chorus_alloy_ingot", conditionsFromItem(ModItems.CHORUS_ALLOY_INGOT))
+                .offerTo(recipeExporter, "chorus_alloy_hoe_from_smithing");
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CHORUS_ALLOY_INGOT)
+                .criterion(hasItem(Items.CHORUS_FRUIT), conditionsFromItem(Items.CHORUS_FRUIT))
+                .input(Items.CHORUS_FRUIT)
+                .input(Items.CHORUS_FRUIT)
+                .input(Items.IRON_INGOT)
+                .input(Items.IRON_INGOT)
+                .offerTo(recipeExporter);
     }
 }

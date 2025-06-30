@@ -37,7 +37,7 @@ public class ModItems {
     public static final Item NAUTILITE_INGOT = registerItem("nautilite_ingot", new Item(new Item.Settings()));
 
     public static final Item SANDSPIRE_INGOT = registerItem("sandspire_ingot", new Item(new Item.Settings()));
-    public static final Item SANDSTONE_SHARD = registerItem("sandstone_shard", new Item(new Item.Settings()));
+    public static final Item SANDSPIRE_SHARD = registerItem("sandspire_shard", new Item(new Item.Settings()));
 
     public static final Item HEXWOOD_INGOT = registerItem("hexwood_ingot", new Item(new Item.Settings()));
     public static final Item INFUSED_WOOD = registerItem("infused_wood", new Item(new Item.Settings()));
@@ -87,6 +87,40 @@ public class ModItems {
             .fireproof()
             .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.PIGSTEEL, 6, -3.2f))));
 
+    public static final Item PIGSTEEL_SWORD = registerItem("pigsteel_sword", new SwordItem(ModToolMaterials.PIGSTEEL, new Item.Settings()
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.PIGSTEEL, 3, -2.4f))));
+
+    public static final Item PIGSTEEL_PICKAXE = registerItem("pigsteel_pickaxe", new PickaxeItem(ModToolMaterials.PIGSTEEL, new Item.Settings()
+            .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.PIGSTEEL, 1, -2.8f))));
+
+    public static final Item PIGSTEEL_SHOVEL = registerItem("pigsteel_shovel", new ShovelItem(ModToolMaterials.PIGSTEEL, new Item.Settings()
+            .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.PIGSTEEL, 1.5f, -3.0f))));
+
+    public static final Item PIGSTEEL_HOE = registerItem("pigsteel_hoe", new HoeItem(ModToolMaterials.PIGSTEEL, new Item.Settings()
+            .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PIGSTEEL, 0, -3.0f))));
+
+    // Hexwood toolset
+
+    public static final Item HEXWOOD_SWORD = registerItem("hexwood_sword", new SwordItem(ModToolMaterials.HEXWOOD, new Item.Settings()
+            .fireproof()
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.HEXWOOD, 3, -2.4f))));
+
+    public static final Item HEXWOOD_PICKAXE = registerItem("hexwood_pickaxe", new PickaxeItem(ModToolMaterials.HEXWOOD, new Item.Settings()
+            .fireproof()
+            .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.HEXWOOD, 1, -2.8f))));
+
+    public static final Item HEXWOOD_AXE = registerItem("hexwood_axe", new AxeItem(ModToolMaterials.HEXWOOD, new Item.Settings()
+            .fireproof()
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.HEXWOOD, 6, -3.2f))));
+
+    public static final Item HEXWOOD_SHOVEL = registerItem("hexwood_shovel", new ShovelItem(ModToolMaterials.HEXWOOD, new Item.Settings()
+            .fireproof()
+            .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.HEXWOOD, 1.5f, -3.0f))));
+
+    public static final Item HEXWOOD_HOE = registerItem("hexwood_hoe", new HoeItem(ModToolMaterials.HEXWOOD, new Item.Settings()
+            .fireproof()
+            .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.HEXWOOD, 0, -3.0f))));
+
     // Blazebound toolset
 
     public static final Item BLAZEBOUND_BOW = registerItem("blazebound_bow", new BowItem(new Item.Settings()
@@ -111,6 +145,40 @@ public class ModItems {
     public static final Item BLAZEBOUND_HOE = registerItem("blazebound_hoe", new HoeItem(ModToolMaterials.BLAZEBOUND, new Item.Settings()
             .fireproof()
             .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.BLAZEBOUND, 0, -3.0f))));
+
+    // Sandspire toolset
+
+    public static final Item SANDSPIRE_SWORD = registerItem("sandspire_sword", new SwordItem(ModToolMaterials.SANDSPIRE, new Item.Settings()
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.SANDSPIRE, 3, -2.4f))));
+
+    public static final Item SANDSPIRE_PICKAXE = registerItem("sandspire_pickaxe", new PickaxeItem(ModToolMaterials.SANDSPIRE, new Item.Settings()
+            .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.SANDSPIRE, 1, -2.8f))));
+
+    public static final Item SANDSPIRE_AXE = registerItem("sandspire_axe", new AxeItem(ModToolMaterials.SANDSPIRE, new Item.Settings()
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.SANDSPIRE, 6, -3.2f))));
+
+    public static final Item SANDSPIRE_SHOVEL = registerItem("sandspire_shovel", new ShovelItem(ModToolMaterials.SANDSPIRE, new Item.Settings()
+            .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.SANDSPIRE, 1.5f, -3.0f))));
+
+    public static final Item SANDSPIRE_HOE = registerItem("sandspire_hoe", new HoeItem(ModToolMaterials.SANDSPIRE, new Item.Settings()
+            .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.SANDSPIRE, 0, -3.0f))));
+
+    // Chorus alloy toolset
+
+    public static final Item CHORUS_ALLOY_SWORD = registerItem("chorus_alloy_sword", new SwordItem(ModToolMaterials.CHORUS_ALLOY, new Item.Settings()
+            .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.CHORUS_ALLOY, 3, -2.4f))));
+
+    public static final Item CHORUS_ALLOY_PICKAXE = registerItem("chorus_alloy_pickaxe", new PickaxeItem(ModToolMaterials.CHORUS_ALLOY, new Item.Settings()
+            .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.CHORUS_ALLOY, 1, -2.8f))));
+
+    public static final Item CHORUS_ALLOY_AXE = registerItem("chorus_alloy_axe", new AxeItem(ModToolMaterials.CHORUS_ALLOY, new Item.Settings()
+            .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.CHORUS_ALLOY, 6, -3.2f))));
+
+    public static final Item CHORUS_ALLOY_SHOVEL = registerItem("chorus_alloy_shovel", new ShovelItem(ModToolMaterials.CHORUS_ALLOY, new Item.Settings()
+            .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.CHORUS_ALLOY, 1.5f, -3.0f))));
+
+    public static final Item CHORUS_ALLOY_HOE = registerItem("chorus_alloy_hoe", new HoeItem(ModToolMaterials.CHORUS_ALLOY, new Item.Settings()
+            .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.CHORUS_ALLOY, 0, -3.0f))));
 
     // Smithing templates
 
@@ -189,6 +257,36 @@ public class ModItems {
             )
     );
 
+    public static final Item SANDSPIRE_UPGRADE_SMITHING_TEMPLATE = registerItem(
+            "sandspire_upgrade_smithing_template",
+            new SmithingTemplateItem(
+                    Text.translatable("item.minecraft.smithing_template.sandspire_upgrade.applies_to").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.sandspire_upgrade.ingredients").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.sandspire_upgrade.title").formatted(Formatting.GRAY),
+                    Text.translatable("item.minecraft.smithing_template.sandspire_upgrade.base_slot_description"),
+                    Text.translatable("item.minecraft.smithing_template.sandspire_upgrade.additions_slot_description"),
+                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE, EMPTY_SLOT_SWORD_TEXTURE,
+                            EMPTY_SLOT_AXE_TEXTURE, EMPTY_SLOT_SHOVEL_TEXTURE, EMPTY_SLOT_HOE_TEXTURE, EMPTY_SLOT_PICKAXE_TEXTURE),
+                    List.of(EMPTY_SLOT_INGOT_TEXTURE),
+                    new FeatureFlag[]{}
+            )
+    );
+
+    public static final Item CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE = registerItem(
+            "chorus_alloy_upgrade_smithing_template",
+            new SmithingTemplateItem(
+                    Text.translatable("item.minecraft.smithing_template.chorus_alloy_upgrade.applies_to").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.chorus_alloy_upgrade.ingredients").formatted(Formatting.BLUE),
+                    Text.translatable("item.minecraft.smithing_template.chorus_alloy_upgrade.title").formatted(Formatting.GRAY),
+                    Text.translatable("item.minecraft.smithing_template.chorus_alloy_upgrade.base_slot_description"),
+                    Text.translatable("item.minecraft.smithing_template.chorus_alloy_upgrade.additions_slot_description"),
+                    List.of(EMPTY_ARMOR_SLOT_HELMET_TEXTURE, EMPTY_ARMOR_SLOT_CHESTPLATE_TEXTURE, EMPTY_ARMOR_SLOT_LEGGINGS_TEXTURE, EMPTY_ARMOR_SLOT_BOOTS_TEXTURE, EMPTY_SLOT_SWORD_TEXTURE,
+                            EMPTY_SLOT_AXE_TEXTURE, EMPTY_SLOT_SHOVEL_TEXTURE, EMPTY_SLOT_HOE_TEXTURE, EMPTY_SLOT_PICKAXE_TEXTURE),
+                    List.of(EMPTY_SLOT_INGOT_TEXTURE),
+                    new FeatureFlag[]{}
+            )
+    );
+
     // Armor register
     // Tenebrine Armor
     public static final Item TENEBRINE_HELMET = registerItem("tenebrine_helmet", new ModArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
@@ -250,15 +348,19 @@ public class ModItems {
             entries.add(NAUTILITE_INGOT);
             entries.add(PIGSTEEL_INGOT);
             entries.add(PIGSTEEL_SCRAP);
-            entries.add(SANDSTONE_SHARD);
+            entries.add(SANDSPIRE_SHARD);
             entries.add(UNREFINED_BLAZEBOUND_INGOT);
             entries.add(BLAZEBOUND_INGOT);
             entries.add(INFUSED_WOOD);
             entries.add(HEXWOOD_INGOT);
+            entries.add(SANDSPIRE_INGOT);
             entries.add(PIGSTEEL_UPGRADE_SMITHING_TEMPLATE);
             entries.add(NAUTILITE_UPGRADE_SMITHING_TEMPLATE);
             entries.add(TENEBRINE_UPGRADE_SMITHING_TEMPLATE);
             entries.add(HEXWOOD_UPGRADE_SMITHING_TEMPLATE);
+            entries.add(BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE);
+            entries.add(SANDSPIRE_UPGRADE_SMITHING_TEMPLATE);
+            entries.add(CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
@@ -270,11 +372,26 @@ public class ModItems {
             entries.add(NAUTILITE_AXE);
             entries.add(NAUTILITE_SHOVEL);
             entries.add(NAUTILITE_HOE);
+            entries.add(PIGSTEEL_PICKAXE);
             entries.add(PIGSTEEL_AXE);
+            entries.add(PIGSTEEL_SHOVEL);
+            entries.add(PIGSTEEL_HOE);
+            entries.add(HEXWOOD_PICKAXE);
+            entries.add(HEXWOOD_AXE);
+            entries.add(HEXWOOD_SHOVEL);
+            entries.add(HEXWOOD_HOE);
             entries.add(BLAZEBOUND_PICKAXE);
             entries.add(BLAZEBOUND_AXE);
             entries.add(BLAZEBOUND_SHOVEL);
             entries.add(BLAZEBOUND_HOE);
+            entries.add(SANDSPIRE_PICKAXE);
+            entries.add(SANDSPIRE_AXE);
+            entries.add(SANDSPIRE_SHOVEL);
+            entries.add(SANDSPIRE_HOE);
+            entries.add(CHORUS_ALLOY_PICKAXE);
+            entries.add(CHORUS_ALLOY_AXE);
+            entries.add(CHORUS_ALLOY_SHOVEL);
+            entries.add(CHORUS_ALLOY_HOE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
@@ -288,10 +405,12 @@ public class ModItems {
             entries.add(NAUTILITE_CHESTPLATE);
             entries.add(NAUTILITE_LEGGINGS);
             entries.add(NAUTILITE_BOOTS);
+            entries.add(PIGSTEEL_SWORD);
             entries.add(PIGSTEEL_HELMET);
             entries.add(PIGSTEEL_CHESTPLATE);
             entries.add(PIGSTEEL_LEGGINGS);
             entries.add(PIGSTEEL_BOOTS);
+            entries.add(HEXWOOD_SWORD);
             entries.add(HEXWOOD_HELMET);
             entries.add(HEXWOOD_CHESTPLATE);
             entries.add(HEXWOOD_LEGGINGS);
@@ -302,10 +421,12 @@ public class ModItems {
             entries.add(BLAZEBOUND_CHESTPLATE);
             entries.add(BLAZEBOUND_LEGGINGS);
             entries.add(BLAZEBOUND_BOOTS);
+            entries.add(SANDSPIRE_SWORD);
             entries.add(SANDSPIRE_HELMET);
             entries.add(SANDSPIRE_CHESTPLATE);
             entries.add(SANDSPIRE_LEGGINGS);
             entries.add(SANDSPIRE_BOOTS);
+            entries.add(CHORUS_ALLOY_SWORD);
             entries.add(CHORUS_ALLOY_HELMET);
             entries.add(CHORUS_ALLOY_CHESTPLATE);
             entries.add(CHORUS_ALLOY_LEGGINGS);

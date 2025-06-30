@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "ancientarsenal:chorus_alloy_ingot"
+  },
+  "base": {
+    "item": "minecraft:iron_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "ancientarsenal:chorus_alloy_sword"
+  },
+  "template": {
+    "item": "ancientarsenal:chorus_alloy_upgrade_smithing_template"
+  }
+}

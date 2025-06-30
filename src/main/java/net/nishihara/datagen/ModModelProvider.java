@@ -71,6 +71,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BLAZEBOUND_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BLAZEBOUND_HOE, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.BLAZEBOUND_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
+
         itemModelGenerator.registerArmor((ArmorItem) ModItems.BLAZEBOUND_HELMET);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.BLAZEBOUND_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.BLAZEBOUND_LEGGINGS);
@@ -89,5 +91,46 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.HEXWOOD_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.INFUSED_WOOD, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.HEXWOOD_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HEXWOOD_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HEXWOOD_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HEXWOOD_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HEXWOOD_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.PIGSTEEL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PIGSTEEL_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PIGSTEEL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PIGSTEEL_SWORD, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SANDSPIRE_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SANDSPIRE_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SANDSPIRE_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.SANDSPIRE_BOOTS);
+
+        itemModelGenerator.register(ModItems.SANDSPIRE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SANDSPIRE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SANDSPIRE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SANDSPIRE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SANDSPIRE_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SANDSPIRE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SANDSPIRE_SHARD, Models.GENERATED);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.CHORUS_ALLOY_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.CHORUS_ALLOY_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.CHORUS_ALLOY_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.CHORUS_ALLOY_BOOTS);
+
+        itemModelGenerator.register(ModItems.CHORUS_ALLOY_INGOT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.CHORUS_ALLOY_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHORUS_ALLOY_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHORUS_ALLOY_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHORUS_ALLOY_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHORUS_ALLOY_HOE, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE, Models.GENERATED);
     }
 }

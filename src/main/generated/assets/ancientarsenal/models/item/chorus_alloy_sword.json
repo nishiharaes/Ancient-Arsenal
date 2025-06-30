@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ancientarsenal:item/chorus_alloy_sword"
+  }
+}

@@ -132,5 +132,41 @@ public class ModLootTableModifiers {
                 tableBuilder.pool(poolBuilder.build());
             }
         });
+
+        LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
+            if(LootTables.DESERT_PYRAMID_CHEST.equals(key)){
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.35f))
+                        .with(ItemEntry.builder(ModItems.SANDSPIRE_SHARD))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 3.0f)));
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+        });
+
+        LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
+            if(LootTables.DESERT_PYRAMID_CHEST.equals(key)){
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.2f))
+                        .with(ItemEntry.builder(ModItems.SANDSPIRE_UPGRADE_SMITHING_TEMPLATE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)));
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+        });
+
+        LootTableEvents.MODIFY.register((key, tableBuilder, source, registry) -> {
+            if(LootTables.END_CITY_TREASURE_CHEST.equals(key)){
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.2f))
+                        .with(ItemEntry.builder(ModItems.CHORUS_ALLOY_UPGRADE_SMITHING_TEMPLATE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)));
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+        });
     }
 }

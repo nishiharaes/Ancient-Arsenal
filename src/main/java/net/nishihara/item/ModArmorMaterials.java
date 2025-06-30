@@ -109,15 +109,15 @@ public class ModArmorMaterials {
     public static final RegistryEntry<ArmorMaterial> CHORUS_ALLOY_ARMOR_MATERIAL = registerArmorMaterial("chorus_alloy", () ->
             new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
                 map.put(ArmorItem.Type.BOOTS, 2);
-                map.put(ArmorItem.Type.LEGGINGS, 5);
-                map.put(ArmorItem.Type.CHESTPLATE, 6);
+                map.put(ArmorItem.Type.LEGGINGS, 6);
+                map.put(ArmorItem.Type.CHESTPLATE, 7);
                 map.put(ArmorItem.Type.HELMET, 2);
-                map.put(ArmorItem.Type.BODY, 10);
+                map.put(ArmorItem.Type.BODY, 8);
             }),
                     10,
                     SoundEvents.ITEM_ARMOR_EQUIP_IRON,
                     () -> Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(AncientArsenal.MOD_ID, "chorus_aloy"))),
+                    List.of(new ArmorMaterial.Layer(Identifier.of(AncientArsenal.MOD_ID, "chorus_alloy"))),
                     1.0f,
                     0.0f
             ));

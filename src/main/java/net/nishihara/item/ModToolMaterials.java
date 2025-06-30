@@ -13,9 +13,10 @@ import net.nishihara.util.ModTags;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    CHORUS_ALLOY(ModTags.Blocks.INCORRECT_FOR_CHORUS_ALLOY_TOOL, 250, 6.0F, 2.0F, 14, () -> Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT)),
+    CHORUS_ALLOY(ModTags.Blocks.INCORRECT_FOR_CHORUS_ALLOY_TOOL, 600, 7.0F, 3.0F, 14, () -> Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT)),
+    SANDSPIRE(ModTags.Blocks.INCORRECT_FOR_SANDSPIRE_TOOL, 325, 6.5F, 2.5F, 15, () -> Ingredient.ofItems(ModItems.CHORUS_ALLOY_INGOT)),
     BLAZEBOUND(ModTags.Blocks.INCORRECT_FOR_BLAZEBOUND_TOOL, 400, 6.5F, 2.5F, 15, () -> Ingredient.ofItems(ModItems.BLAZEBOUND_INGOT)),
-    HEXWOOD(ModTags.Blocks.INCORRECT_FOR_HEXWOOD_TOOL, 650, 7.0F, 3.0F, 16, () -> Ingredient.ofItems(ModItems.HEXWOOD_INGOT)),
+    HEXWOOD(ModTags.Blocks.INCORRECT_FOR_HEXWOOD_TOOL, 1700, 7.0F, 3.0F, 16, () -> Ingredient.ofItems(ModItems.HEXWOOD_INGOT)),
     PIGSTEEL(ModTags.Blocks.INCORRECT_FOR_PIGSTEEL_TOOL, 1750, 8.0F, 3.0F, 12, () -> Ingredient.ofItems(ModItems.PIGSTEEL_INGOT)),
     NAUTILITE(ModTags.Blocks.INCORRECT_FOR_NAUTILITE_TOOL, 1900, 8.5F, 3.5F, 14, () -> Ingredient.ofItems(ModItems.NAUTILITE_INGOT)),
     TENEBRINE(ModTags.Blocks.INCORRECT_FOR_TENEBRINE_TOOL, 2300, 10.0F, 5.0F, 15, () -> Ingredient.ofItems(ModItems.TENEBRINE_INGOT));

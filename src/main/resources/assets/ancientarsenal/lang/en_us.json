@@ -102,13 +102,66 @@
   "item.minecraft.hexwood_leggings": "Hexwood Leggings",
   "item.minecraft.hexwood_boots": "Hexwood Boots",
 
-  "item.ancientarsenal:hexwood_ingot": "Hexwood Ingot",
-  "item.ancientarsenal:infused_wood": "Infused Wood",
+  "item.ancientarsenal.hexwood_sword": "Hexwood Sword",
+  "item.ancientarsenal.hexwood_pickaxe": "Hexwood Pickaxe",
+  "item.ancientarsenal.hexwood_axe": "Hexwood Axe",
+  "item.ancientarsenal.hexwood_shovel": "Hexwood Shovel",
+  "item.ancientarsenal.hexwood_hoe": "Hexwood Hoe",
+
+  "item.ancientarsenal.hexwood_ingot": "Hexwood Ingot",
+  "item.ancientarsenal.infused_wood": "Infused Wood",
 
   "item.ancientarsenal.hexwood_upgrade_smithing_template": "Hexwood Upgrade Template",
   "item.minecraft.smithing_hexwood.hexwood_upgrade.applies_to": "Diamond equipment",
   "item.minecraft.smithing_hexwood.hexwood_upgrade.ingredients": "Hexwood Ingot",
   "item.minecraft.smithing_hexwood.hexwood_upgrade.title": "Hexwood Upgrade",
   "item.minecraft.smithing_hexwood.hexwood_upgrade.base_slot_description": "Insert diamond armor, weapon, or tool",
-  "item.minecraft.smithing_hexwood.hexwood_upgrade.additions_slot_description": "Add Hexwood Ingot"
+  "item.minecraft.smithing_hexwood.hexwood_upgrade.additions_slot_description": "Add Hexwood Ingot",
+
+  "item.ancientarsenal.pigsteel_sword": "Pigsteel Sword",
+  "item.ancientarsenal.pigsteel_pickaxe": "Pigsteel Pickaxe",
+  "item.ancientarsenal.pigsteel_shovel": "Pigsteel Shovel",
+  "item.ancientarsenal.pigsteel_hoe": "Pigsteel Hoe",
+
+  "item.ancientarsenal.sandspire_ingot": "Sandspire Ingot",
+  "item.ancientarsenal.sandspire_shard": "Sandspire Shard",
+  "item.ancientarsenal.sandspire_upgrade_smithing_template": "Sandspire Upgrade Template",
+  "item.minecraft.smithing_template.sandspire_upgrade.applies_to": "Iron equipment",
+  "item.minecraft.smithing_template.sandspire_upgrade.ingredients": "Sandspire Ingot",
+  "item.minecraft.smithing_template.sandspire_upgrade.title": "Sandspire Upgrade",
+  "item.minecraft.smithing_template.sandspire_upgrade.base_slot_description": "Insert iron armor, weapon, or tool",
+  "item.minecraft.smithing_template.sandspire_upgrade.additions_slot_description": "Add Sandspire Ingot",
+
+  "item.ancientarsenal.sandspire_sword": "Sandspire Sword",
+  "item.ancientarsenal.sandspire_pickaxe": "Sandspire Pickaxe",
+  "item.ancientarsenal.sandspire_axe": "Sandspire Axe",
+  "item.ancientarsenal.sandspire_shovel": "Sandspire Shovel",
+  "item.ancientarsenal.sandspire_hoe": "Sandspire Hoe",
+
+  "item.ancientarsenal.chorus_alloy_ingot": "Chorus Alloy Ingot",
+  "item.ancientarsenal.chorus_alloy_upgrade_smithing_template": "Chorus Alloy Upgrade Template",
+  "item.ancientarsenal.chorus_alloy_sword": "Chorus Alloy Sword",
+  "item.ancientarsenal.chorus_alloy_pickaxe": "Chorus Alloy Pickaxe",
+  "item.ancientarsenal.chorus_alloy_axe": "Chorus Alloy Axe",
+  "item.ancientarsenal.chorus_alloy_shovel": "Chorus Alloy Shovel",
+  "item.ancientarsenal.chorus_alloy_hoe": "Chorus Alloy Hoe",
+  "item.ancientarsenal.chorus_alloy_helmet": "Chorus Alloy Helmet",
+  "item.ancientarsenal.chorus_alloy_chestplate": "Chorus Alloy Chestplate",
+  "item.ancientarsenal.chorus_alloy_leggings": "Chorus Alloy Leggings",
+  "item.ancientarsenal.chorus_alloy_boots": "Chorus Alloy Boots",
+
+  "item.ancientarsenal.sandspire_upgrade_smithing_template": "Sandspire Upgrade Template",
+  "item.minecraft.smithing_template.sandspire_upgrade.applies_to": "Iron equipment",
+  "item.minecraft.smithing_template.sandspire_upgrade.ingredients": "Sandspire Ingot",
+  "item.minecraft.smithing_template.sandspire_upgrade.title": "Sandspire Upgrade",
+  "item.minecraft.smithing_template.sandspire_upgrade.base_slot_description": "Insert iron armor, weapon, or tool",
+  "item.minecraft.smithing_template.sandspire_upgrade.additions_slot_description": "Add Sandspire Ingot",
+
+  "item.minecraft.smithing_template.chorus_alloy_upgrade.applies_to": "Iron equipment",
+  "item.minecraft.smithing_template.chorus_alloy_upgrade.ingredients": "Chorus Alloy Ingot",
+  "item.minecraft.smithing_template.chorus_alloy_upgrade.title": "Chorus Alloy Upgrade",
+  "item.minecraft.smithing_template.chorus_alloy_upgrade.base_slot_description": "Insert iron armor, weapon, or tool",
+  "item.minecraft.smithing_template.chorus_alloy_upgrade.additions_slot_description": "Add Chorus Alloy Ingot"
+
+
 }

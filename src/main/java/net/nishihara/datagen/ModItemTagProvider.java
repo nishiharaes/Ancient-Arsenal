@@ -19,28 +19,47 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(ModItems.TENEBRINE_SWORD)
                 .add(ModItems.BLAZEBOUND_SWORD)
-                .add(ModItems.NAUTILITE_SWORD);
+                .add(ModItems.NAUTILITE_SWORD)
+                .add(ModItems.HEXWOOD_SWORD)
+                .add(ModItems.PIGSTEEL_SWORD)
+                .add(ModItems.SANDSPIRE_SWORD)
+                .add(ModItems.CHORUS_ALLOY_SWORD);
 
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.TENEBRINE_PICKAXE)
                 .add(ModItems.BLAZEBOUND_PICKAXE)
-                .add(ModItems.NAUTILITE_PICKAXE);
+                .add(ModItems.NAUTILITE_PICKAXE)
+                .add(ModItems.HEXWOOD_PICKAXE)
+                .add(ModItems.PIGSTEEL_PICKAXE)
+                .add(ModItems.SANDSPIRE_PICKAXE)
+                .add(ModItems.CHORUS_ALLOY_PICKAXE);
 
         getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.TENEBRINE_SHOVEL)
                 .add(ModItems.BLAZEBOUND_SHOVEL)
-                .add(ModItems.NAUTILITE_SHOVEL);
+                .add(ModItems.NAUTILITE_SHOVEL)
+                .add(ModItems.HEXWOOD_SHOVEL)
+                .add(ModItems.PIGSTEEL_SHOVEL)
+                .add(ModItems.SANDSPIRE_SHOVEL)
+                .add(ModItems.CHORUS_ALLOY_SHOVEL);
 
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.TENEBRINE_HOE)
                 .add(ModItems.BLAZEBOUND_HOE)
-                .add(ModItems.NAUTILITE_HOE);
+                .add(ModItems.NAUTILITE_HOE)
+                .add(ModItems.HEXWOOD_HOE)
+                .add(ModItems.PIGSTEEL_HOE)
+                .add(ModItems.SANDSPIRE_HOE)
+                .add(ModItems.CHORUS_ALLOY_HOE);
 
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.TENEBRINE_AXE)
                 .add(ModItems.BLAZEBOUND_AXE)
                 .add(ModItems.PIGSTEEL_AXE)
-                .add(ModItems.NAUTILITE_AXE);
+                .add(ModItems.NAUTILITE_AXE)
+                .add(ModItems.HEXWOOD_AXE)
+                .add(ModItems.SANDSPIRE_AXE)
+                .add(ModItems.CHORUS_ALLOY_AXE);
 
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.TENEBRINE_HELMET)

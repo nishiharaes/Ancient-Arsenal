@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "ancientarsenal:pigsteel_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "ancientarsenal:pigsteel_shovel"
+  },
+  "template": {
+    "item": "ancientarsenal:pigsteel_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "ancientarsenal:sandspire_ingot"
+  },
+  "base": {
+    "item": "minecraft:iron_boots"
+  },
+  "result": {
+    "count": 1,
+    "id": "ancientarsenal:sandspire_boots"
+  },
+  "template": {
+    "item": "ancientarsenal:sandspire_upgrade_smithing_template"
+  }
+}
