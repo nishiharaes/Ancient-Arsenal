@@ -28,6 +28,14 @@ Visit the [Wiki](https://github.com/nishiharaes/Ancient-Arsenal/wiki) to learn m
 
 ---
 
+## 🛡️ Armor sets
+
+![Armor Sets](https://nishi.s-ul.eu/08mozaiS)
+
+## ⚔️ Tool sets
+
+![Tool sets](https://nishi.s-ul.eu/y5g4jaq7)
+
 ## 📜 License
 
 This mod is released under the [MIT License](https://opensource.org/licenses/MIT).  
