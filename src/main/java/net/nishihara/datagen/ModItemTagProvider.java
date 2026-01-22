@@ -65,7 +65,20 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.TENEBRINE_HELMET)
                 .add(ModItems.TENEBRINE_CHESTPLATE)
                 .add(ModItems.TENEBRINE_LEGGINGS)
-                .add(ModItems.TENEBRINE_BOOTS);
+                .add(ModItems.TENEBRINE_BOOTS)
+                .add(ModItems.NAUTILITE_HELMET)
+                .add(ModItems.NAUTILITE_CHESTPLATE)
+                .add(ModItems.NAUTILITE_LEGGINGS)
+                .add(ModItems.NAUTILITE_LEGGINGS)
+                .add(ModItems.NAUTILITE_BOOTS)
+                .add(ModItems.SANDSPIRE_HELMET)
+                .add(ModItems.SANDSPIRE_CHESTPLATE)
+                .add(ModItems.SANDSPIRE_LEGGINGS)
+                .add(ModItems.SANDSPIRE_BOOTS)
+                .add(ModItems.CHORUS_ALLOY_HELMET)
+                .add(ModItems.CHORUS_ALLOY_CHESTPLATE)
+                .add(ModItems.CHORUS_ALLOY_LEGGINGS)
+                .add(ModItems.CHORUS_ALLOY_BOOTS);
 
         getOrCreateTagBuilder(ItemTags.HEAD_ARMOR)
                 .add(ModItems.TENEBRINE_HELMET)

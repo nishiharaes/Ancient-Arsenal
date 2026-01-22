@@ -57,6 +57,7 @@ public class ModBlocks {
             entries.add(TENEBRINE_ORE);
             entries.add(DEEPSLATE_TENEBRINE_ORE);
             entries.add(PIGSTEEL_ORE);
+            entries.add(BLAZEBOUND_ORE);
         });
     }
 

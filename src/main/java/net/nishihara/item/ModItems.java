@@ -286,46 +286,46 @@ public class ModItems {
 
     // Armor register
     // Tenebrine Armor
-    public static final Item TENEBRINE_HELMET = registerItem("tenebrine_helmet", new ModArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(40))));
-    public static final Item TENEBRINE_CHESTPLATE = registerItem("tenebrine_chestplate", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(40))));
-    public static final Item TENEBRINE_LEGGINGS = registerItem("tenebrine_leggings", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(40))));
-    public static final Item TENEBRINE_BOOTS = registerItem("tenebrine_boots", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(40))));
+    public static final Item TENEBRINE_HELMET = registerItem("tenebrine_helmet", new ModArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(144))));
+    public static final Item TENEBRINE_CHESTPLATE = registerItem("tenebrine_chestplate", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(144))));
+    public static final Item TENEBRINE_LEGGINGS = registerItem("tenebrine_leggings", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(144))));
+    public static final Item TENEBRINE_BOOTS = registerItem("tenebrine_boots", new ArmorItem(ModArmorMaterials.TENEBRINE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(144))));
 
     // Nautilite Armor
-    public static final Item NAUTILITE_HELMET = registerItem("nautilite_helmet", new ModArmorItem(ModArmorMaterials.NAUTILITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(36))));
-    public static final Item NAUTILITE_CHESTPLATE = registerItem("nautilite_chestplate", new ArmorItem(ModArmorMaterials.NAUTILITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(36))));
-    public static final Item NAUTILITE_LEGGINGS = registerItem("nautilite_leggings", new ArmorItem(ModArmorMaterials.NAUTILITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(36))));
-    public static final Item NAUTILITE_BOOTS = registerItem("nautilite_boots", new ArmorItem(ModArmorMaterials.NAUTILITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(36))));
+    public static final Item NAUTILITE_HELMET = registerItem("nautilite_helmet", new ModArmorItem(ModArmorMaterials.NAUTILITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(119))));
+    public static final Item NAUTILITE_CHESTPLATE = registerItem("nautilite_chestplate", new ArmorItem(ModArmorMaterials.NAUTILITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(119))));
+    public static final Item NAUTILITE_LEGGINGS = registerItem("nautilite_leggings", new ArmorItem(ModArmorMaterials.NAUTILITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(119))));
+    public static final Item NAUTILITE_BOOTS = registerItem("nautilite_boots", new ArmorItem(ModArmorMaterials.NAUTILITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(119))));
 
     // Pigsteel Armor
-    public static final Item PIGSTEEL_HELMET = registerItem("pigsteel_helmet", new ModArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(33))));
-    public static final Item PIGSTEEL_CHESTPLATE = registerItem("pigsteel_chestplate", new ArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(33))));
-    public static final Item PIGSTEEL_LEGGINGS = registerItem("pigsteel_leggings", new ArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(33))));
-    public static final Item PIGSTEEL_BOOTS = registerItem("pigsteel_boots", new ArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(33))));
+    public static final Item PIGSTEEL_HELMET = registerItem("pigsteel_helmet", new ModArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(110))));
+    public static final Item PIGSTEEL_CHESTPLATE = registerItem("pigsteel_chestplate", new ArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(110))));
+    public static final Item PIGSTEEL_LEGGINGS = registerItem("pigsteel_leggings", new ArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(110))));
+    public static final Item PIGSTEEL_BOOTS = registerItem("pigsteel_boots", new ArmorItem(ModArmorMaterials.PIGSTEEL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(110))));
 
     // Hexwood Armor
-    public static final Item HEXWOOD_HELMET = registerItem("hexwood_helmet", new ModArmorItem(ModArmorMaterials.HEXWOOD_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(30))));
-    public static final Item HEXWOOD_CHESTPLATE = registerItem("hexwood_chestplate", new ArmorItem(ModArmorMaterials.HEXWOOD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(30))));
-    public static final Item HEXWOOD_LEGGINGS = registerItem("hexwood_leggings", new ArmorItem(ModArmorMaterials.HEXWOOD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(30))));
-    public static final Item HEXWOOD_BOOTS = registerItem("hexwood_boots", new ArmorItem(ModArmorMaterials.HEXWOOD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(30))));
+    public static final Item HEXWOOD_HELMET = registerItem("hexwood_helmet", new ModArmorItem(ModArmorMaterials.HEXWOOD_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(106))));
+    public static final Item HEXWOOD_CHESTPLATE = registerItem("hexwood_chestplate", new ArmorItem(ModArmorMaterials.HEXWOOD_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(106))));
+    public static final Item HEXWOOD_LEGGINGS = registerItem("hexwood_leggings", new ArmorItem(ModArmorMaterials.HEXWOOD_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(106))));
+    public static final Item HEXWOOD_BOOTS = registerItem("hexwood_boots", new ArmorItem(ModArmorMaterials.HEXWOOD_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(106))));
 
     // Blazebound Armor
-    public static final Item BLAZEBOUND_HELMET = registerItem("blazebound_helmet", new ModArmorItem(ModArmorMaterials.BLAZEBOUND_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(27))));
-    public static final Item BLAZEBOUND_CHESTPLATE = registerItem("blazebound_chestplate", new ArmorItem(ModArmorMaterials.BLAZEBOUND_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(27))));
-    public static final Item BLAZEBOUND_LEGGINGS = registerItem("blazebound_leggings", new ArmorItem(ModArmorMaterials.BLAZEBOUND_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(27))));
-    public static final Item BLAZEBOUND_BOOTS = registerItem("blazebound_boots", new ArmorItem(ModArmorMaterials.BLAZEBOUND_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(27))));
+    public static final Item BLAZEBOUND_HELMET = registerItem("blazebound_helmet", new ModArmorItem(ModArmorMaterials.BLAZEBOUND_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(25))));
+    public static final Item BLAZEBOUND_CHESTPLATE = registerItem("blazebound_chestplate", new ArmorItem(ModArmorMaterials.BLAZEBOUND_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(25))));
+    public static final Item BLAZEBOUND_LEGGINGS = registerItem("blazebound_leggings", new ArmorItem(ModArmorMaterials.BLAZEBOUND_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(25))));
+    public static final Item BLAZEBOUND_BOOTS = registerItem("blazebound_boots", new ArmorItem(ModArmorMaterials.BLAZEBOUND_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(25))));
 
     // Sandspire Armor
-    public static final Item SANDSPIRE_HELMET = registerItem("sandspire_helmet", new ModArmorItem(ModArmorMaterials.SANDSPIRE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(27))));
-    public static final Item SANDSPIRE_CHESTPLATE = registerItem("sandspire_chestplate", new ArmorItem(ModArmorMaterials.SANDSPIRE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(27))));
-    public static final Item SANDSPIRE_LEGGINGS = registerItem("sandspire_leggings", new ArmorItem(ModArmorMaterials.SANDSPIRE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(27))));
-    public static final Item SANDSPIRE_BOOTS = registerItem("sandspire_boots", new ArmorItem(ModArmorMaterials.SANDSPIRE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(27))));
+    public static final Item SANDSPIRE_HELMET = registerItem("sandspire_helmet", new ModArmorItem(ModArmorMaterials.SANDSPIRE_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(20))));
+    public static final Item SANDSPIRE_CHESTPLATE = registerItem("sandspire_chestplate", new ArmorItem(ModArmorMaterials.SANDSPIRE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(20))));
+    public static final Item SANDSPIRE_LEGGINGS = registerItem("sandspire_leggings", new ArmorItem(ModArmorMaterials.SANDSPIRE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(20))));
+    public static final Item SANDSPIRE_BOOTS = registerItem("sandspire_boots", new ArmorItem(ModArmorMaterials.SANDSPIRE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))));
 
     // Chorus Alloy Armor
-    public static final Item CHORUS_ALLOY_HELMET = registerItem("chorus_alloy_helmet", new ModArmorItem(ModArmorMaterials.CHORUS_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(22))));
-    public static final Item CHORUS_ALLOY_CHESTPLATE = registerItem("chorus_alloy_chestplate", new ArmorItem(ModArmorMaterials.CHORUS_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(22))));
-    public static final Item CHORUS_ALLOY_LEGGINGS = registerItem("chorus_alloy_leggings", new ArmorItem(ModArmorMaterials.CHORUS_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(22))));
-    public static final Item CHORUS_ALLOY_BOOTS = registerItem("chorus_alloy_boots", new ArmorItem(ModArmorMaterials.CHORUS_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(22))));
+    public static final Item CHORUS_ALLOY_HELMET = registerItem("chorus_alloy_helmet", new ModArmorItem(ModArmorMaterials.CHORUS_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(38))));
+    public static final Item CHORUS_ALLOY_CHESTPLATE = registerItem("chorus_alloy_chestplate", new ArmorItem(ModArmorMaterials.CHORUS_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(38))));
+    public static final Item CHORUS_ALLOY_LEGGINGS = registerItem("chorus_alloy_leggings", new ArmorItem(ModArmorMaterials.CHORUS_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(38))));
+    public static final Item CHORUS_ALLOY_BOOTS = registerItem("chorus_alloy_boots", new ArmorItem(ModArmorMaterials.CHORUS_ALLOY_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(38))));
 
 
 
